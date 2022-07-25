@@ -1,0 +1,10 @@
+<h1>Pokemon Index</h1>
+
+<div class="infocard">
+    <% @pokemons.each do |pokemon| %>
+        <p>
+            <%= link_to pokemon.name, pokemon_path(pokemon.id) %>
+            <img class="thumbnail" src="<%= pokemon.image %>">
+        </p>   
+    <% end %>
+</div>

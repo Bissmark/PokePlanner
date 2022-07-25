@@ -1,0 +1,18 @@
+<h1>
+    <%= @pokemon.name %>
+</h1>
+
+<h1>
+    <div class="<%= @pokemon.element %>">
+        <%= @pokemon.element %>
+    </div>
+</h1>
+
+<% unless @pokemon.image.nil? || @pokemon.image.empty? %>
+    <img class="feature" src="<%= @pokemon.image %>" alt="<%= @pokemon.name %>">
+<% end %>
+
+<div class="controls">
+    <%= link_to 'Add to Party', party_path %>
+    <a href="/pokemons/<%= @pokemon.id %>/delete">Delete Pokemon</a>
+</div>
