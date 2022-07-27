@@ -1,5 +1,6 @@
 body {
     background-color: #98b09a;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 form {
@@ -46,6 +47,14 @@ form {
     top: 90px;
 }
 
+.DescriptionInPokedex {
+    font-size: x-large;
+    position: relative;
+    left: 150px;
+    top: 390px;
+    max-width: 70%;
+}
+
 .infocard {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
@@ -74,7 +83,7 @@ nav {
     width: 30%;
     position: relative;
     left: 60px;
-    top: 10px;
+    top: -40px
 }
 
 /* .PokemonText {

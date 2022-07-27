@@ -7,6 +7,9 @@
                 <%= @pokemon.elements.pluck(:name).join(', ') %>
             </div>
         </div>
+        <div class="DescriptionInPokedex">
+            <%= @pokemon.description %>
+        </div>
     <% unless @pokemon.image.nil? || @pokemon.image.empty? %>
         <img class="feature" src="<%= @pokemon.image %>" alt="<%= @pokemon.name %>">
     <% end %>
