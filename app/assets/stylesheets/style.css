@@ -55,6 +55,22 @@ form {
     max-width: 70%;
 }
 
+.HeightInPokedex {
+    font-size: x-large;
+    position: relative;
+    left: 650px;
+    top: 170px;
+    max-width: 70%;
+}
+
+.WeightInPokedex {
+    font-size: x-large;
+    position: relative;
+    left: 650px;
+    top: 200px;
+    max-width: 70%;
+}
+
 .infocard {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
@@ -83,7 +99,7 @@ nav {
     width: 30%;
     position: relative;
     left: 60px;
-    top: -40px
+    top: -80px
 }
 
 /* .PokemonText {
