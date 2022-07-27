@@ -4,157 +4,157 @@ u2 = User.create :email => 'craigsy@ga.co', :password => 'chicken'
 puts "#{ User.count } users"
 
 Pokemon.destroy_all
-p1 = Pokemon.create :name => 'Bulbasaur', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/bulbasaur.png', :element => 'Grass Poison'
-p2 = Pokemon.create :name => 'Ivysaur', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/ivysaur.png', :element => 'Grass Poison'
-p3 = Pokemon.create :name => 'Venusaur', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/venusaur.png', :element => 'Grass Poison'
-p4 = Pokemon.create :name => 'Charmander', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/charmander.png', :element => 'Fire'
-p5 = Pokemon.create :name => 'Charmeleon', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/charmeleon.png', :element => 'Grass Poison'
-p6 = Pokemon.create :name => 'Charizard', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/charizard.png', :element => 'Grass Poison'
-p7 = Pokemon.create :name => 'Squirtle', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/squirtle.png', :element => 'Grass Poison'
-p8 = Pokemon.create :name => 'Wartortle', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/wartortle.png', :element => 'Fire'
-p9 = Pokemon.create :name => 'Blastoise', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/blastoise.png', :element => 'Grass Poison'
-p10 = Pokemon.create :name => 'Caterpie', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/caterpie.png', :element => 'Grass Poison'
-p11 = Pokemon.create :name => 'Metapod', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/metapod.png', :element => 'Grass Poison'
-p12 = Pokemon.create :name => 'Butterfree', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/butterfree.png', :element => 'Fire'
-p13 = Pokemon.create :name => 'Weedle', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/weedle.png', :element => 'Grass Poison'
-p14 = Pokemon.create :name => 'Kakuna', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/kakuna.png', :element => 'Grass Poison'
-p15 = Pokemon.create :name => 'Beedrill', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/beedrill.png', :element => 'Grass Poison'
-p16 = Pokemon.create :name => 'Pidgey', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/pidgey.png', :element => 'Fire'
-p17 = Pokemon.create :name => 'Pidgeotto', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/pidgeotto.png', :element => 'Grass Poison'
-p18 = Pokemon.create :name => 'Pidgeot', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/pidgeot.png', :element => 'Grass Poison'
-p19 = Pokemon.create :name => 'Rattata', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/rattata.png', :element => 'Grass Poison'
-p20 = Pokemon.create :name => 'Raticate', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/raticate.png', :element => 'Fire'
-p21 = Pokemon.create :name => 'Spearow', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/spearow.png', :element => 'Grass Poison'
-p22 = Pokemon.create :name => 'Fearow', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/fearow.png', :element => 'Grass Poison'
-p23 = Pokemon.create :name => 'Ekans', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/ekans.png', :element => 'Grass Poison'
-p24 = Pokemon.create :name => 'Arbok', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/arbok.png', :element => 'Fire'
-p25 = Pokemon.create :name => 'Pikachu', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/pikachu.png', :element => 'Grass Poison'
-p26 = Pokemon.create :name => 'Raichu', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/raichu.png', :element => 'Grass Poison'
-p27 = Pokemon.create :name => 'Sandshrew', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/sandshrew.png', :element => 'Grass Poison'
-p28 = Pokemon.create :name => 'Sandslash', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/sandslash.png', :element => 'Fire'
-p29 = Pokemon.create :name => 'Nidoran♀', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/nidoran-f.png', :element => 'Fire'
-p30 = Pokemon.create :name => 'Nidorina', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/nidorina.png', :element => 'Grass Poison'
-p31 = Pokemon.create :name => 'Nidoqueen', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/nidoqueen.png', :element => 'Grass Poison'
-p32 = Pokemon.create :name => 'Nidoran♂', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/nidoran-m.png', :element => 'Grass Poison'
-p33 = Pokemon.create :name => 'Nidorino', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/nidorino.png', :element => 'Fire'
-p34 = Pokemon.create :name => 'Nidoking', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/nidoking.png', :element => 'Grass Poison'
-p35 = Pokemon.create :name => 'Clefairy', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/clefairy.png', :element => 'Grass Poison'
-p36 = Pokemon.create :name => 'Clefable', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/clefable.png', :element => 'Grass Poison'
-p37 = Pokemon.create :name => 'Vulpix', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/vulpix.png', :element => 'Fire'
-p38 = Pokemon.create :name => 'Ninetales', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/ninetales.png', :element => 'Grass Poison'
-p39 = Pokemon.create :name => 'Jigglypuff', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/jigglypuff.png', :element => 'Grass Poison'
-p40 = Pokemon.create :name => 'Wigglytuff', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/wigglytuff.png', :element => 'Grass Poison'
-p41 = Pokemon.create :name => 'Zubat', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/zubat.png', :element => 'Fire'
-p42 = Pokemon.create :name => 'Golbat', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/golbat.png', :element => 'Grass Poison'
-p43 = Pokemon.create :name => 'Oddish', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/oddish.png', :element => 'Grass Poison'
-p44 = Pokemon.create :name => 'Gloom', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/gloom.png', :element => 'Grass Poison'
-p45 = Pokemon.create :name => 'Vileplume', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/vileplume.png', :element => 'Fire'
-p46 = Pokemon.create :name => 'Paras', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/paras.png', :element => 'Grass Poison'
-p47 = Pokemon.create :name => 'Parasect', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/parasect.png', :element => 'Grass Poison'
-p48 = Pokemon.create :name => 'Venonat', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/venonat.png', :element => 'Grass Poison'
-p49 = Pokemon.create :name => 'Venomoth', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/venomoth.png', :element => 'Fire'
-p50 = Pokemon.create :name => 'Diglett', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/diglett.png', :element => 'Grass Poison'
-p51 = Pokemon.create :name => 'Dugtrio', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/dugtrio.png', :element => 'Grass Poison'
-p52 = Pokemon.create :name => 'Meowth', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/meowth.png', :element => 'Grass Poison'
-p53 = Pokemon.create :name => 'Persian', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/persian.png', :element => 'Fire'
-p54 = Pokemon.create :name => 'Psyduck', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/psyduck.png', :element => 'Fire'
-p55 = Pokemon.create :name => 'Golduck', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/golduck.png', :element => 'Grass Poison'
-p56 = Pokemon.create :name => 'Mankey', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/mankey.png', :element => 'Grass Poison'
-p57 = Pokemon.create :name => 'Primeape', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/primeape.png', :element => 'Grass Poison'
-p58 = Pokemon.create :name => 'Growlithe', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/growlithe.png', :element => 'Fire'
-p59 = Pokemon.create :name => 'Arcanine', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/arcanine.png', :element => 'Grass Poison'
-p60 = Pokemon.create :name => 'Poliwag', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/poliwag.png', :element => 'Grass Poison'
-p61 = Pokemon.create :name => 'Poliwhirl', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/poliwhirl.png', :element => 'Grass Poison'
-p62 = Pokemon.create :name => 'Poliwrath', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/poliwrath.png', :element => 'Fire'
-p63 = Pokemon.create :name => 'Abra', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/abra.png', :element => 'Grass Poison'
-p64 = Pokemon.create :name => 'Kadabra', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/kadabra.png', :element => 'Grass Poison'
-p65 = Pokemon.create :name => 'Alakazam', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/alakazam.png', :element => 'Grass Poison'
-p66 = Pokemon.create :name => 'Machop', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/machop.png', :element => 'Fire'
-p67 = Pokemon.create :name => 'Machoke', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/machoke.png', :element => 'Grass Poison'
-p68 = Pokemon.create :name => 'Machamp', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/machamp.png', :element => 'Grass Poison'
-p69 = Pokemon.create :name => 'Bellsprout', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/bellsprout.png', :element => 'Grass Poison'
-p70 = Pokemon.create :name => 'Weepinbell', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/weepinbell.png', :element => 'Fire'
-p71 = Pokemon.create :name => 'Victreebel', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/victreebel.png', :element => 'Grass Poison'
-p72 = Pokemon.create :name => 'Tentacool', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/tentacool.png', :element => 'Grass Poison'
-p73 = Pokemon.create :name => 'Tentacruel', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/tentacruel.png', :element => 'Grass Poison'
-p74 = Pokemon.create :name => 'Geodude', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/geodude.png', :element => 'Fire'
-p75 = Pokemon.create :name => 'Graveler', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/graveler.png', :element => 'Grass Poison'
-p76 = Pokemon.create :name => 'Golem', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/golem.png', :element => 'Grass Poison'
-p77 = Pokemon.create :name => 'Ponyta', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/ponyta.png', :element => 'Grass Poison'
-p78 = Pokemon.create :name => 'Rapidash', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/rapidash.png', :element => 'Fire'
-p79 = Pokemon.create :name => 'Slowpoke', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/slowpoke.png', :element => ''
-p80 = Pokemon.create :name => 'Slowbro', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/slowbro.png', :element => ''
-p81 = Pokemon.create :name => 'Magnemite', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/magnemite.png', :element => ''
-p82 = Pokemon.create :name => 'Magneton', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/magneton.png', :element => ''
-p83 = Pokemon.create :name => "Farfetch'd", :image => 'https://img.pokemondb.net/sprites/red-blue/normal/farfetchd.png', :element => ''
-p84 = Pokemon.create :name => 'Doduo', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/doduo.png', :element => ''
-p85 = Pokemon.create :name => 'Dodrio', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/dodrio.png', :element => ''
-p86 = Pokemon.create :name => 'Seel', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/seel.png', :element => ''
-p87 = Pokemon.create :name => 'Dewgong', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/dewgong.png', :element => ''
-p88 = Pokemon.create :name => 'Grimer', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/grimer.png', :element => ''
-p89 = Pokemon.create :name => 'Muk', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/muk.png', :element => ''
-p90 = Pokemon.create :name => 'Shellder', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/shellder.png', :element => ''
-p91 = Pokemon.create :name => 'Cloyster', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/cloyster.png', :element => ''
-p92 = Pokemon.create :name => 'Gastly', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/gastly.png', :element => ''
-p93 = Pokemon.create :name => 'Haunter', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/haunter.png', :element => ''
-p94 = Pokemon.create :name => 'Gengar', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/gengar.png', :element => ''
-p95 = Pokemon.create :name => 'Onix', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/onix.png', :element => ''
-p96 = Pokemon.create :name => 'Drowzee', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/drowzee.png', :element => ''
-p97 = Pokemon.create :name => 'Hypno', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/hypno.png', :element => ''
-p98 = Pokemon.create :name => 'Krabby', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/krabby.png', :element => ''
-p99 = Pokemon.create :name => 'Kingler', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/kingler.png', :element => ''
-p100 = Pokemon.create :name => 'Voltorb', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/voltorb.png', :element => ''
-p101 = Pokemon.create :name => 'Electrode', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/electrode.png', :element => ''
-p102 = Pokemon.create :name => 'Exeggucute', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/exeggcute.png', :element => ''
-p103 = Pokemon.create :name => 'Exeggutor', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/exeggutor.png', :element => ''
-p104 = Pokemon.create :name => 'Cubone', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/cubone.png', :element => ''
-p105 = Pokemon.create :name => 'Marowak', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/marowak.png', :element => ''
-p106 = Pokemon.create :name => 'Hitmonlee', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/hitmonlee.png', :element => ''
-p107 = Pokemon.create :name => 'Hitmonchan', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/hitmonchan.png', :element => ''
-p108 = Pokemon.create :name => 'Lickitung', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/lickitung.png', :element => ''
-p109 = Pokemon.create :name => 'Koffing', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/koffing.png', :element => ''
-p110 = Pokemon.create :name => 'Weezing', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/weezing.png', :element => ''
-p111 = Pokemon.create :name => 'Rhyhorn', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/rhyhorn.png', :element => ''
-p112 = Pokemon.create :name => 'Rhydon', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/rhydon.png', :element => ''
-p113 = Pokemon.create :name => 'Chansey', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/chansey.png', :element => ''
-p114 = Pokemon.create :name => 'Tangela', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/tangela.png', :element => ''
-p115 = Pokemon.create :name => 'Kangaskhan', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/kangaskhan.png', :element => ''
-p116 = Pokemon.create :name => 'Horsea', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/horsea.png', :element => ''
-p117 = Pokemon.create :name => 'Seadra', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/seadra.png', :element => ''
-p118 = Pokemon.create :name => 'Goldeen', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/goldeen.png', :element => ''
-p129 = Pokemon.create :name => 'Seaking', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/seaking.png', :element => ''
-p120 = Pokemon.create :name => 'Staryu', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/staryu.png', :element => ''
-p121 = Pokemon.create :name => 'Starmie', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/starmie.png', :element => ''
-p122 = Pokemon.create :name => "Mr.Mime", :image => 'https://img.pokemondb.net/sprites/red-blue/normal/mr-mime.png', :element => ''
-p123 = Pokemon.create :name => 'Scyther', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/scyther.png', :element => ''
-p124 = Pokemon.create :name => 'Jynx', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/jynx.png', :element => ''
-p125 = Pokemon.create :name => 'Electabuzz', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/electabuzz.png', :element => ''
-p126 = Pokemon.create :name => 'Magmar', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/magmar.png', :element => ''
-p127 = Pokemon.create :name => 'Pinsir', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/pinsir.png', :element => ''
-p128 = Pokemon.create :name => 'Tauros', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/tauros.png', :element => ''
-p129 = Pokemon.create :name => 'Magikarp', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/magikarp.png', :element => ''
-p130 = Pokemon.create :name => 'Gyarados', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/gyarados.png', :element => ''
-p131 = Pokemon.create :name => 'Lapras', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/lapras.png', :element => ''
-p132 = Pokemon.create :name => 'Ditto', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/ditto.png', :element => ''
-p133 = Pokemon.create :name => 'Eevee', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/eevee.png', :element => ''
-p134 = Pokemon.create :name => 'Vaporeon', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/vaporeon.png', :element => ''
-p135 = Pokemon.create :name => 'Jolteon', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/jolteon.png', :element => ''
-p136 = Pokemon.create :name => 'Flareon', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/flareon.png', :element => ''
-p137 = Pokemon.create :name => 'Porygon', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/porygon.png', :element => ''
-p138 = Pokemon.create :name => 'Omanyte', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/omanyte.png', :element => ''
-p139 = Pokemon.create :name => 'Omastar', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/omastar.png', :element => ''
-p140 = Pokemon.create :name => 'Kabuto', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/kabuto.png', :element => ''
-p141 = Pokemon.create :name => 'Kabutops', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/kabutops.png', :element => ''
-p142 = Pokemon.create :name => 'Aerodactyl', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/aerodactyl.png', :element => ''
-p143 = Pokemon.create :name => 'Snorlax', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/snorlax.png', :element => ''
-p144 = Pokemon.create :name => 'Articuno', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/articuno.png', :element => ''
-p145 = Pokemon.create :name => 'Zapdos', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/zapdos.png', :element => ''
-p146 = Pokemon.create :name => 'Moltres', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/moltres.png', :element => ''
-p147 = Pokemon.create :name => 'Dratini', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/dratini.png', :element => ''
-p148 = Pokemon.create :name => 'Dragonair', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/dragonair.png', :element => ''
-p149 = Pokemon.create :name => 'Dragonite', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/dragonite.png', :element => ''
-p150 = Pokemon.create :name => 'Mewtwo', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/mewtwo.png', :element => ''
-p151 = Pokemon.create :name => 'Mew', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/mew.png', :element => ''
+p1 = Pokemon.create :name => 'Bulbasaur', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/bulbasaur.png'
+p2 = Pokemon.create :name => 'Ivysaur', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/ivysaur.png'
+p3 = Pokemon.create :name => 'Venusaur', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/venusaur.png'
+p4 = Pokemon.create :name => 'Charmander', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/charmander.png'
+p5 = Pokemon.create :name => 'Charmeleon', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/charmeleon.png'
+p6 = Pokemon.create :name => 'Charizard', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/charizard.png'
+p7 = Pokemon.create :name => 'Squirtle', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/squirtle.png'
+p8 = Pokemon.create :name => 'Wartortle', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/wartortle.png'
+p9 = Pokemon.create :name => 'Blastoise', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/blastoise.png'
+p10 = Pokemon.create :name => 'Caterpie', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/caterpie.png'
+p11 = Pokemon.create :name => 'Metapod', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/metapod.png'
+p12 = Pokemon.create :name => 'Butterfree', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/butterfree.png'
+p13 = Pokemon.create :name => 'Weedle', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/weedle.png'
+p14 = Pokemon.create :name => 'Kakuna', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/kakuna.png'
+p15 = Pokemon.create :name => 'Beedrill', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/beedrill.png'
+p16 = Pokemon.create :name => 'Pidgey', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/pidgey.png'
+p17 = Pokemon.create :name => 'Pidgeotto', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/pidgeotto.png'
+p18 = Pokemon.create :name => 'Pidgeot', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/pidgeot.png'
+p19 = Pokemon.create :name => 'Rattata', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/rattata.png'
+p20 = Pokemon.create :name => 'Raticate', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/raticate.png'
+p21 = Pokemon.create :name => 'Spearow', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/spearow.png'
+p22 = Pokemon.create :name => 'Fearow', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/fearow.png'
+p23 = Pokemon.create :name => 'Ekans', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/ekans.png'
+p24 = Pokemon.create :name => 'Arbok', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/arbok.png'
+p25 = Pokemon.create :name => 'Pikachu', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/pikachu.png'
+p26 = Pokemon.create :name => 'Raichu', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/raichu.png'
+p27 = Pokemon.create :name => 'Sandshrew', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/sandshrew.png'
+p28 = Pokemon.create :name => 'Sandslash', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/sandslash.png'
+p29 = Pokemon.create :name => 'Nidoran♀', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/nidoran-f.png'
+p30 = Pokemon.create :name => 'Nidorina', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/nidorina.png'
+p31 = Pokemon.create :name => 'Nidoqueen', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/nidoqueen.png'
+p32 = Pokemon.create :name => 'Nidoran♂', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/nidoran-m.png'
+p33 = Pokemon.create :name => 'Nidorino', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/nidorino.png'
+p34 = Pokemon.create :name => 'Nidoking', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/nidoking.png'
+p35 = Pokemon.create :name => 'Clefairy', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/clefairy.png'
+p36 = Pokemon.create :name => 'Clefable', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/clefable.png'
+p37 = Pokemon.create :name => 'Vulpix', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/vulpix.png'
+p38 = Pokemon.create :name => 'Ninetales', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/ninetales.png'
+p39 = Pokemon.create :name => 'Jigglypuff', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/jigglypuff.png'
+p40 = Pokemon.create :name => 'Wigglytuff', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/wigglytuff.png'
+p41 = Pokemon.create :name => 'Zubat', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/zubat.png'
+p42 = Pokemon.create :name => 'Golbat', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/golbat.png'
+p43 = Pokemon.create :name => 'Oddish', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/oddish.png'
+p44 = Pokemon.create :name => 'Gloom', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/gloom.png'
+p45 = Pokemon.create :name => 'Vileplume', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/vileplume.png'
+p46 = Pokemon.create :name => 'Paras', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/paras.png'
+p47 = Pokemon.create :name => 'Parasect', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/parasect.png'
+p48 = Pokemon.create :name => 'Venonat', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/venonat.png'
+p49 = Pokemon.create :name => 'Venomoth', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/venomoth.png'
+p50 = Pokemon.create :name => 'Diglett', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/diglett.png'
+p51 = Pokemon.create :name => 'Dugtrio', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/dugtrio.png'
+p52 = Pokemon.create :name => 'Meowth', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/meowth.png'
+p53 = Pokemon.create :name => 'Persian', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/persian.png'
+p54 = Pokemon.create :name => 'Psyduck', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/psyduck.png'
+p55 = Pokemon.create :name => 'Golduck', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/golduck.png'
+p56 = Pokemon.create :name => 'Mankey', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/mankey.png'
+p57 = Pokemon.create :name => 'Primeape', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/primeape.png'
+p58 = Pokemon.create :name => 'Growlithe', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/growlithe.png'
+p59 = Pokemon.create :name => 'Arcanine', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/arcanine.png'
+p60 = Pokemon.create :name => 'Poliwag', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/poliwag.png'
+p61 = Pokemon.create :name => 'Poliwhirl', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/poliwhirl.png'
+p62 = Pokemon.create :name => 'Poliwrath', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/poliwrath.png'
+p63 = Pokemon.create :name => 'Abra', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/abra.png'
+p64 = Pokemon.create :name => 'Kadabra', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/kadabra.png'
+p65 = Pokemon.create :name => 'Alakazam', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/alakazam.png'
+p66 = Pokemon.create :name => 'Machop', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/machop.png'
+p67 = Pokemon.create :name => 'Machoke', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/machoke.png'
+p68 = Pokemon.create :name => 'Machamp', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/machamp.png'
+p69 = Pokemon.create :name => 'Bellsprout', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/bellsprout.png'
+p70 = Pokemon.create :name => 'Weepinbell', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/weepinbell.png'
+p71 = Pokemon.create :name => 'Victreebel', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/victreebel.png'
+p72 = Pokemon.create :name => 'Tentacool', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/tentacool.png'
+p73 = Pokemon.create :name => 'Tentacruel', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/tentacruel.png'
+p74 = Pokemon.create :name => 'Geodude', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/geodude.png'
+p75 = Pokemon.create :name => 'Graveler', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/graveler.png'
+p76 = Pokemon.create :name => 'Golem', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/golem.png'
+p77 = Pokemon.create :name => 'Ponyta', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/ponyta.png'
+p78 = Pokemon.create :name => 'Rapidash', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/rapidash.png'
+p79 = Pokemon.create :name => 'Slowpoke', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/slowpoke.png'
+p80 = Pokemon.create :name => 'Slowbro', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/slowbro.png'
+p81 = Pokemon.create :name => 'Magnemite', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/magnemite.png'
+p82 = Pokemon.create :name => 'Magneton', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/magneton.png'
+p83 = Pokemon.create :name => "Farfetch'd", :image => 'https://img.pokemondb.net/sprites/red-blue/normal/farfetchd.png'
+p84 = Pokemon.create :name => 'Doduo', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/doduo.png'
+p85 = Pokemon.create :name => 'Dodrio', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/dodrio.png'
+p86 = Pokemon.create :name => 'Seel', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/seel.png'
+p87 = Pokemon.create :name => 'Dewgong', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/dewgong.png'
+p88 = Pokemon.create :name => 'Grimer', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/grimer.png'
+p89 = Pokemon.create :name => 'Muk', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/muk.png'
+p90 = Pokemon.create :name => 'Shellder', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/shellder.png'
+p91 = Pokemon.create :name => 'Cloyster', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/cloyster.png'
+p92 = Pokemon.create :name => 'Gastly', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/gastly.png'
+p93 = Pokemon.create :name => 'Haunter', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/haunter.png'
+p94 = Pokemon.create :name => 'Gengar', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/gengar.png'
+p95 = Pokemon.create :name => 'Onix', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/onix.png'
+p96 = Pokemon.create :name => 'Drowzee', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/drowzee.png'
+p97 = Pokemon.create :name => 'Hypno', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/hypno.png'
+p98 = Pokemon.create :name => 'Krabby', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/krabby.png'
+p99 = Pokemon.create :name => 'Kingler', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/kingler.png'
+p100 = Pokemon.create :name => 'Voltorb', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/voltorb.png'
+p101 = Pokemon.create :name => 'Electrode', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/electrode.png'
+p102 = Pokemon.create :name => 'Exeggucute', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/exeggcute.png'
+p103 = Pokemon.create :name => 'Exeggutor', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/exeggutor.png'
+p104 = Pokemon.create :name => 'Cubone', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/cubone.png'
+p105 = Pokemon.create :name => 'Marowak', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/marowak.png'
+p106 = Pokemon.create :name => 'Hitmonlee', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/hitmonlee.png'
+p107 = Pokemon.create :name => 'Hitmonchan', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/hitmonchan.png'
+p108 = Pokemon.create :name => 'Lickitung', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/lickitung.png'
+p109 = Pokemon.create :name => 'Koffing', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/koffing.png'
+p110 = Pokemon.create :name => 'Weezing', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/weezing.png'
+p111 = Pokemon.create :name => 'Rhyhorn', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/rhyhorn.png'
+p112 = Pokemon.create :name => 'Rhydon', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/rhydon.png'
+p113 = Pokemon.create :name => 'Chansey', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/chansey.png'
+p114 = Pokemon.create :name => 'Tangela', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/tangela.png'
+p115 = Pokemon.create :name => 'Kangaskhan', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/kangaskhan.png'
+p116 = Pokemon.create :name => 'Horsea', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/horsea.png'
+p117 = Pokemon.create :name => 'Seadra', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/seadra.png'
+p118 = Pokemon.create :name => 'Goldeen', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/goldeen.png'
+p119 = Pokemon.create :name => 'Seaking', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/seaking.png'
+p120 = Pokemon.create :name => 'Staryu', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/staryu.png'
+p121 = Pokemon.create :name => 'Starmie', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/starmie.png'
+p122 = Pokemon.create :name => "Mr.Mime", :image => 'https://img.pokemondb.net/sprites/red-blue/normal/mr-mime.png'
+p123 = Pokemon.create :name => 'Scyther', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/scyther.png'
+p124 = Pokemon.create :name => 'Jynx', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/jynx.png'
+p125 = Pokemon.create :name => 'Electabuzz', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/electabuzz.png'
+p126 = Pokemon.create :name => 'Magmar', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/magmar.png'
+p127 = Pokemon.create :name => 'Pinsir', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/pinsir.png'
+p128 = Pokemon.create :name => 'Tauros', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/tauros.png'
+p129 = Pokemon.create :name => 'Magikarp', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/magikarp.png'
+p130 = Pokemon.create :name => 'Gyarados', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/gyarados.png'
+p131 = Pokemon.create :name => 'Lapras', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/lapras.png'
+p132 = Pokemon.create :name => 'Ditto', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/ditto.png'
+p133 = Pokemon.create :name => 'Eevee', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/eevee.png'
+p134 = Pokemon.create :name => 'Vaporeon', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/vaporeon.png'
+p135 = Pokemon.create :name => 'Jolteon', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/jolteon.png'
+p136 = Pokemon.create :name => 'Flareon', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/flareon.png'
+p137 = Pokemon.create :name => 'Porygon', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/porygon.png'
+p138 = Pokemon.create :name => 'Omanyte', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/omanyte.png'
+p139 = Pokemon.create :name => 'Omastar', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/omastar.png'
+p140 = Pokemon.create :name => 'Kabuto', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/kabuto.png'
+p141 = Pokemon.create :name => 'Kabutops', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/kabutops.png'
+p142 = Pokemon.create :name => 'Aerodactyl', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/aerodactyl.png'
+p143 = Pokemon.create :name => 'Snorlax', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/snorlax.png'
+p144 = Pokemon.create :name => 'Articuno', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/articuno.png'
+p145 = Pokemon.create :name => 'Zapdos', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/zapdos.png'
+p146 = Pokemon.create :name => 'Moltres', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/moltres.png'
+p147 = Pokemon.create :name => 'Dratini', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/dratini.png'
+p148 = Pokemon.create :name => 'Dragonair', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/dragonair.png'
+p149 = Pokemon.create :name => 'Dragonite', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/dragonite.png'
+p150 = Pokemon.create :name => 'Mewtwo', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/mewtwo.png'
+p151 = Pokemon.create :name => 'Mew', :image => 'https://img.pokemondb.net/sprites/red-blue/normal/mew.png'
 
 puts "#{ Pokemon.count } pokemon"
 
@@ -345,23 +345,130 @@ e15 = Element.create :name => 'Dragon', :image => 'http://www.rw-designer.com/ic
 puts "#{ Element.count } types"
 
 # Associations ###################################################
-# puts "Pokemon and Elements"
+puts "Pokemon and Elements"
 # p6.elements << e1 << e11
 # p4.elements << e1
-# # Fire
-# e1.pokemons << p4 << p5 << p6 << p37 << p38 << p58 << p59 << p77 << p78
-# # Grass
-# e2.pokemons << p43 << p44 << p45 << p46 << p47 << p69 << p70 << p71 << p102 << p103 << p114
+# Fire
+e1.pokemons << p4 << p5 << p6 << p37 << p38 << p58 << p59 << p77 << p78 << p136
+# Grass
+e2.pokemons << p1 << p2 << p3 << p43 << p44 << p45 << p46 << p47 << p69 << p70 << p71 << p102 << p103 << p114
+# Water
+e3.pokemons << p7 << p8 << p9 << p54 << p55 << p60 << p61 << p62 << p72 << p73 << p79 << p80 << p86 << p87 << p90 << p91 << p98 << p99 << p116 << p117 << p118 << p119 << p120 << p121 << p129 << p130 << p131 << p134 << p138 << p139 << p140 << p141
+# Poison
+e4.pokemons << p1 << p2 << p3 << p13 << p14 << p15 << p23 << p24 << p29 << p30 << p31 << p32 << p33 << p34 << p41 << p42 << p43 << p44 << p45 << p48 << p49 << p69 << p70 << p71 << p72 << p73 << p88 << p89 << p92 << p93 << p94 << p109 << p110
+# Bug
+e5.pokemons << p10 << p11 << p12 << p13 << p14 << p15 << p46 << p47 << p48 << p49 << p123 << p127
+# Electric
+e6.pokemons << p25 << p26 << p81 << p82 << p100 << p101 << p125 << p135 << p145
+# Fighting
+e7.pokemons << p56 << p57 << p66 << p67 << p68 << p106 << p107
+# Rock
+e8.pokemons << p74 << p75 << p76 << p95 << p111 << p112 << p138 << p139 << p140 << p141 << p142
+# Ground
+e9.pokemons << p27 << p28 << p31 << p34 << p50 << p51 << p74 << p75 << p76 << p95 << p104 << p105 << p111 << p112
+# Ice
+e10.pokemons << p87 << p91 << p124 << p131 << p144
+# Flying
+e11.pokemons << p6 << p12 << p16 << p17 << p18 << p21 << p22 << p41 << p42 << p83 << p84 << p85 << p123 << p130 << p142 << p144 << p145 << p146 << p149
+# Normal
+e12.pokemons << p16 << p17 << p18 << p19 << p20 << p21 << p22 << p35 << p36 << p39 << p40 << p52 << p53 << p83 << p84 << p85 << p108 << p113 << p115 << p128 << p132 << p133 << p137 << p143
+# Psychic
+e13.pokemons << p63 << p64 << p65 << p79 << p80 << p96 << p97 << p102 << p103 << p121 << p122 << p124 << p150 << p151
+# Ghost 
+e14.pokemons << p92 << p93 << p94
+# Dragon
+e15.pokemons << p147 << p148 << p149
 
-# puts "Pokemon and Moves"
-# p1.moves << m1 << m3
-# p2.moves << m2
+puts "Pokemon and Moves"
+m1.pokemons << p1 << p2 << p3
 
-puts "Elements and Moves"
-e2.moves << m1
-e4.moves << m2 << m3
-# m1.element << e2
+p1.moves << m1 << m3
+p2.moves << m2
+p3.moves << m1 << m3
+p4.moves << m2
+p5.moves << m1 << m3
+p6.moves << m2
+p7.moves << m1 << m3
+p8.moves << m2
+p9.moves << m1 << m3
+p10.moves << m2
+p11.moves << m1 << m3
+p12.moves << m2
+p13.moves << m1 << m3
+p14.moves << m2
+p15.moves << m1 << m3
+p16.moves << m2
+p17.moves << m1 << m3
+p18.moves << m2
+p19.moves << m1 << m3
+p20.moves << m2
+p21.moves << m1 << m3
+p22.moves << m2
+p23.moves << m1 << m3
+p24.moves << m2
+p25.moves << m1 << m3
+p26.moves << m2
+p27.moves << m1 << m3
+p28.moves << m2
+p29.moves << m1 << m3
+p30.moves << m2
+p31.moves << m1 << m3
+p32.moves << m2
+p33.moves << m1 << m3
+p34.moves << m2
+p35.moves << m1 << m3
+p36.moves << m2
+p37.moves << m1 << m3
+p38.moves << m2
+p39.moves << m1 << m3
+p40.moves << m2
+p41.moves << m1 << m3
+p42.moves << m2
+p43.moves << m1 << m3
+p44.moves << m2
+p45.moves << m1 << m3
+p46.moves << m2
+p47.moves << m1 << m3
+p48.moves << m2
+p49.moves << m1 << m3
+p50.moves << m2
+p51.moves << m1 << m3
+p52.moves << m2
+p53.moves << m1 << m3
+p54.moves << m2
+p55.moves << m1 << m3
+p56.moves << m2
+p57.moves << m1 << m3
+p58.moves << m2
+p59.moves << m1 << m3
+p60.moves << m2
+p61.moves << m1 << m3
+p62.moves << m2
+p63.moves << m1 << m3
+p64.moves << m2
+p65.moves << m1 << m3
+p66.moves << m2
 
-# puts "Pokemon and Users"
-# u1.pokemons << p1 << p2
-# u2.pokemons << p2 << p3
+
+# puts "Elements and Moves"
+# e1.moves << m40 << m42 << m43 << m44 << m46 # Fire
+# e2.moves << m1 << m73 << m80 << m91 << m102 << m122 << m127 << m131 << m136 << m158 # Grass
+# e3.moves << m16 << m17 << m18 << m25 << m63 << m141 << m160 << m161 << m164 # Water
+# e4.moves << m2 << m3 << m93 << m94 << m95 << m123 << m124 << m154 # Poison
+# e5.moves << m72 << m92 << m134 << m157 # Bug
+# e6.moves << m149 << m150 << m151 << m152 << m153 # Electric
+# e7.moves << m24 << m31 << m60 << m69 << m70 << m78 << m110 << m114 << m137 # Fighting
+# e8.moves << m108 << m109 # Rock
+# e9.moves << m14 << m15 << m28 << m38 << m45 << m111 # Ground
+# e10.moves << m6 << m12 << m58 << m67 << m68 << m87 # Ice
+# e11.moves << m37 << m48 << m56 << m86 << m90 << m119 << m163 # Flying
+# e12.moves << m7 << m9 << m10 << m11 << m13 << m19 << m22 << m23 << m26 << m27 << m29 << m30 << m32 << m33 << m34 << m39 << m41 << m47 << m49 << m50 << m51 << m52 << m53 << m54 << m55 << m57 << m59 << m61 << m62 << m64 << m65 << m74 << m77 << m81 << m82 << m83 << m84 << m85 << m89 << m96 << m100 << m101 << m103 << m104 << m107 << m112 << m113 << m115 << m116 << m117 << m118 << m120 << m121 << m125 << m126 << m128 << m129 << m130 << m132 << m133 << m135 << m138 << m139 << m140 << m142 << m143 << m144 << m145 << m146 << m148 << m155 << m156 << m159 << m162 << m165 # Normal
+# e13.moves << m4 << m5 << m8 << m21 << m36 << m66 << m71 << m76 << m79 << m97 << m98 << m99 << m105 << m106 << m147 # Psychic
+# e14.moves << m20 << m75 << m88 # Ghost
+# e15.moves << m35 # Dragon
+
+#m1.elements << e2
+
+puts "Pokemon and Users"
+u1.pokemons << p1 << p2 << p56 << p78 << p134
+u2.pokemons << p2 << p3

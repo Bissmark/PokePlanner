@@ -16,13 +16,54 @@ form {
     display: grid;
 }
 
+.Party {
+    text-align: center;
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+.PokemonEntry {
+    background-image: url("https://i.imgflip.com/2vrpup.jpg?a460680");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 580px;
+}
+
+.NameInPokedex {
+    /* text-align: center; */
+    font-size: xx-large;
+    position: relative;
+    left: 500px;
+    top: 80px;
+}
+
+.TypeInPokedex {
+    /* text-align: center; */
+    font-size: xx-large;
+    position: relative;
+    left: 500px;
+    top: 90px;
+}
+
 .infocard {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    text-align: center;
 }
 
 button {
     margin: 5px 20px 0px 0px;
+}
+
+.controlsPokedex {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
 }
 
 nav {
@@ -30,7 +71,18 @@ nav {
 }
 
 .feature {
-    width: 20%;
+    width: 30%;
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+
+/* .PokemonText {
+    position: relative;
+} */
+
+.featureMoves {
+    width: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -49,7 +101,29 @@ p {
     box-sizing: border-box;
 }
 
-.Water {
+.box1 { 
+    font-size:15px; 
+    font-family:Tahoma; 
+    padding-left:15px; 
+    border:1px solid red; 
+    overflow:hidden; 
+    display: inline 
+}
+
+.PartyPokemon {
+    min-height: 90px;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.party {
+    display: block;
+    margin: 0 auto;
+}
+
+.Water  {
     color: #0080ff;
 }
 

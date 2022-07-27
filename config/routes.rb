@@ -2,8 +2,8 @@ Rails.application.routes.draw do
   root :to => 'pages#home'
 
   resources :users, :only => [:new, :create, :index]
-  resources :pokemons, :only => [:new, :create, :index, :edit, :show]
-  resources :moves, :only => [:new, :create, :index, :edit, :show] 
+  resources :pokemons
+  resources :moves
 
   # Not in the database!
   get '/login' => 'session#new'
@@ -11,4 +11,5 @@ Rails.application.routes.draw do
   delete '/login' => 'session#destroy'
 
   get '/party' => 'party#show'
+  post '/party' => 'party#update'
 end

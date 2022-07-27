@@ -1,18 +1,19 @@
-<h1>
-    <%= @pokemon.name %>
-</h1>
+<div class="PokemonEntry">
+        <div class="NameInPokedex">
+            <%= @pokemon.name %>
+        </div>
+        <div class="TypeInPokedex">
+            <div class="<%= @pokemon.elements.pluck(:name).join(', ') %>">
+                <%= @pokemon.elements.pluck(:name).join(', ') %>
+            </div>
+        </div>
+    <% unless @pokemon.image.nil? || @pokemon.image.empty? %>
+        <img class="feature" src="<%= @pokemon.image %>" alt="<%= @pokemon.name %>">
+    <% end %>
 
-<h1>
-    <div class="<%= @pokemon.element %>">
-        <%= @pokemon.element %>
+    <div class="controlsPokedex">
+        <%= link_to 'Add to Party', party_path(:id => @pokemon.id), :method => 'post' %>
+        <%= link_to 'Edit Pokemon', edit_pokemon_path(@pokemon) %>
+        <%= link_to 'Delete Pokemon', @pokemon, :method => 'delete', :data => { :confirm => 'Are you sure?' } %>
     </div>
-</h1>
-
-<% unless @pokemon.image.nil? || @pokemon.image.empty? %>
-    <img class="feature" src="<%= @pokemon.image %>" alt="<%= @pokemon.name %>">
-<% end %>
-
-<div class="controls">
-    <%= link_to 'Add to Party', party_path %>
-    <a href="/pokemons/<%= @pokemon.id %>/delete">Delete Pokemon</a>
 </div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Project1</title>
+    <title>Pokemon Database Project</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -15,6 +15,8 @@
 
       <% if @current_user.present? %>
         <%= link_to 'All Users', users_path if @current_user.admin? %>
+        <%= link_to 'All Pokemon', pokemons_path %>
+        <%= link_to 'All Moves', moves_path %>
         <%= link_to 'Your Party', party_path %>
         <%= link_to "Logout #{ @current_user.email }", login_path, :method => 'delete' %>
       <% else %>
@@ -22,6 +24,7 @@
         <%= link_to 'Sign In', login_path %>
       <% end %>
     </nav>
+    
     <div class="container">
         <div class="textAboveGrid">
             <%= yield %>

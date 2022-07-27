@@ -1,9 +1,3 @@
 <h1>Welcome to Build-a-Pokemon</h1>
 
-<%= form_for @pokemon do |f| %>
-    <%= f.label :name  %>
-    <%= f.text_field :name %>
-    <%= f.label :image %>
-    <%= f.text_field :image %>
-    <%= f.submit "Create Pokemon" %>
-<% end %>
+<%= render :partial => 'form' %>

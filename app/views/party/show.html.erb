@@ -1,6 +1,18 @@
-<h1>Here is your party</h1>
-
+<h1><%= @current_user.email %>'s Party</h1>
+<div class="PartyPokemon">
+        <% @current_user.pokemons.each do |pokemon| %>
+            <div class="Party">
+            <%= pokemon.name %>
+            <img class="party" src="<%= pokemon.image %>">
+            <%= select :from, ['asdasd', 'asdwqd', 'csacs'], :prompt => 'Select a Move' %>
+            <%= select :pokemon, :moves, :prompt => 'Select a Move' %>
+            <%= select :moves, :name, :prompt => 'Select a Move' %>
+            <%= select :moves, Move.pluck(:name), include_blank: true %>
+            </div>
+        <% end %>
+</div>
 <nav>
-    <%= link_to 'Add Pokemon to Party', pokemons_path %>
+    <%= link_to 'Add Pokemon to Party', pokemons_path if @current_user.pokemons.size <= 5 %>
+    <a href="">Release Pokemon</a>
     <a href="">Battle Opponent</a>
 </nav>

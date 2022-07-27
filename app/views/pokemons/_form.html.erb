@@ -1,0 +1,12 @@
+<%= form_for @pokemon do |f| %>
+    <%= f.label :name  %>
+    <%= f.text_field :name %>
+
+    <%= f.label :image %>
+    <%= f.text_field :image %>
+
+    <%# f.label :type %>
+    <%# f.text_field :elements %>
+
+    <%= f.submit "Create Pokemon" %>
+<% end %>

@@ -1,5 +1,8 @@
-<h1>Pokemon Index</h1>
+<h1>Pokedex</h1>
 
+<div class="controls">
+    <%= link_to 'New Pokemon', new_pokemon_path(@pokemon) %>
+</div>
 <div class="infocard">
     <% @pokemons.each do |pokemon| %>
         <p>

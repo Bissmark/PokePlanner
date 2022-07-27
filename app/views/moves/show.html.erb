@@ -1,1 +1,17 @@
-<h1>Show Moves</h1>
+<h1>
+    <%= @move.name %>
+</h1>
+
+<h1>
+    Category:
+    <%= @move.category %>
+</h1>
+
+<h1>
+    <%# image_tag(@move.elements.image, :class => 'featureMoves') %>
+</h1>
+
+<div class="controls">
+    <%= link_to 'Edit Move', edit_move_path(@move) %>
+    <%= link_to 'Delete Move', @move, :method => 'delete', :data => { :confirm => 'Are you sure?' } %>
+</div>
