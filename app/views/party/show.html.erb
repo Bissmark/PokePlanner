@@ -4,11 +4,14 @@
             <div class="Party">
             <%= pokemon.name %>
             <img class="party" src="<%= pokemon.image %>">
-            <%= select :from, ['asdasd', 'asdwqd', 'csacs'], :prompt => 'Select a Move' %>
-            <%= select :move, :moves, :prompt => 'Select a Move' %>
-            <%= select :moves, :name, :prompt => 'Select a Move' %>
-            <%= select :moves, Move.pluck(:name), include_blank: true %>
-            <%# render :partial => 'formmoves' %>
+            <%# select :from, ['asdasd', 'asdwqd', 'csacs'], :prompt => 'Select a Move' %>
+            <%# select :move, :moves, :prompt => 'Select a Move' %>
+            <%# select :moves, :name, :prompt => 'Select a Move' %>
+            <%# select :moves, Move.pluck(:name), include_blank: true %>
+            <%= render :partial => 'formmoves' %>
+            <%= render :partial => 'formmoves' %>
+            <%= render :partial => 'formmoves' %>
+            <%= render :partial => 'formmoves' %>
             </div>
         <% end %>
 </div>

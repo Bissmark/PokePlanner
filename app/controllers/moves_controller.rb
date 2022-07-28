@@ -37,6 +37,6 @@ class MovesController < ApplicationController
 
     private 
       def move_params
-        params.require(:move).permit(:name, :category, :element_id)
+        params.require(:move).permit(:name, :category, :element)
       end
 end

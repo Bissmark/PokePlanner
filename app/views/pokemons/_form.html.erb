@@ -2,11 +2,17 @@
     <%= f.label :name  %>
     <%= f.text_field :name %>
 
+    <%= f.label :weight %>
+    <%= f.text_field :weight %>
+
+    <%= f.label :height %>
+    <%= f.text_field :height %>
+
+    <%= f.label :description %>
+    <%= f.text_field :description %>    
+
     <%= f.label :image %>
-    <%= f.text_field :image %>
+    <%= f.text_field :image, :required => true %>
 
-    <%# f.label :type %>
-    <%# f.text_field :elements %>
-
-    <%= f.submit "Create Pokemon" %>
+    <%= f.submit %>
 <% end %>

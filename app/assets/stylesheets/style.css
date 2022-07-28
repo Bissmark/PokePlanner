@@ -154,6 +154,10 @@ footer {
     right: 60px;
 }
 
+.newpokemonpicture {
+    height: 30%;
+}
+
 /* .PokemonText {
     position: relative;
 } */
@@ -232,6 +236,7 @@ p {
 .party {
     display: block;
     margin: 0 auto;
+    max-height: 70px;
 }
 
 .Water  {
@@ -323,14 +328,10 @@ h2 {
 }
 
 .thumbnail {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
     transition-duration: 0.3s;
     transition-property: transform;
+    max-height: 70px;
+    margin: auto;
 }
 
 .thumbnail:hover,
