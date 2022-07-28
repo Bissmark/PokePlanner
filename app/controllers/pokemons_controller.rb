@@ -38,8 +38,8 @@ class PokemonsController < ApplicationController
         redirect_to pokemons_path
     end
     
-      private 
-      def pokemon_params
+    private 
+    def pokemon_params
         params.require(:pokemon).permit(:name, :image)
-      end
+    end
 end

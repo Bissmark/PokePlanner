@@ -21,7 +21,7 @@
     <% end %>
 
     <div class="controlsPokedex">
-        <%= link_to 'Add to Party', party_path(:id => @pokemon.id), :method => 'post' %>
+        <%= link_to 'Add to Party', party_path(:id => @pokemon.id), :method => 'post'  if @current_user.pokemons.size <= 5 %>
         <%= link_to 'Edit Pokemon', edit_pokemon_path(@pokemon) %>
         <%= link_to 'Delete Pokemon', @pokemon, :method => 'delete', :data => { :confirm => 'Are you sure?' } %>
     </div>

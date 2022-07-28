@@ -159,171 +159,171 @@ p151 = Pokemon.create :name => 'Mew', :image => 'https://img.pokemondb.net/sprit
 puts "#{ Pokemon.count } pokemon"
 
 Move.destroy_all
-m1 = Move.create :name => 'Absorb', :category => 'Special'
-m2 = Move.create :name => 'Acid', :category => 'Special'
-m3 = Move.create :name => 'Acid Armor', :category => 'Status'
-m4 = Move.create :name => 'Agility', :category => 'Status'
-m5 = Move.create :name => 'Amnesia', :category => 'Status'
-m6 = Move.create :name => 'Aurora Beam', :category => 'Special'
-m7 = Move.create :name => 'Barrage', :category => 'Physical'
-m8 = Move.create :name => 'Barrier', :category => 'Status'
-m9 = Move.create :name => 'Bide', :category => 'Physical'
-m10 = Move.create :name => 'Bind', :category => 'Physical'
-m11 = Move.create :name => 'Bite', :category => 'Physical'
-m12 = Move.create :name => 'Blizzard', :category => 'Special'
-m13 = Move.create :name => 'Body Slam', :category => 'Physical'
-m14 = Move.create :name => 'Bone Club', :category => 'Physical'
-m15 = Move.create :name => 'Bonemerang', :category => 'Physical'
-m16 = Move.create :name => 'Bubble', :category => 'Special'
-m17 = Move.create :name => 'Bubblebeam', :category => 'Special'
-m18 = Move.create :name => 'Clamp', :category => 'Physical'
-m19 = Move.create :name => 'Comet Punch', :category => 'Physical'
-m20 = Move.create :name => 'Confuse Ray', :category => 'Status'
-m21 = Move.create :name => 'Confusion', :category => 'Special'
-m22 = Move.create :name => 'Constrict', :category => 'Physical'
-m23 = Move.create :name => 'Conversion', :category => 'Status'
-m24 = Move.create :name => 'Counter', :category => 'Physical'
-m25 = Move.create :name => 'Crabhammer', :category => 'Physical'
-m26 = Move.create :name => 'Cut', :category => 'Physical'
-m27 = Move.create :name => 'Defense Curl', :category => 'Status'
-m28 = Move.create :name => 'Dig', :category => 'Physical'
-m29 = Move.create :name => 'Disable', :category => 'Status'
-m30 = Move.create :name => 'Dizzy Punch', :category => 'Physical'
-m31 = Move.create :name => 'Double Kick', :category => 'Physical'
-m32 = Move.create :name => 'Double Slap', :category => 'Physical'
-m33 = Move.create :name => 'Double Team', :category => 'Status'
-m34 = Move.create :name => 'Double-Edge', :category => 'Physical'
-m35 = Move.create :name => 'Dragon Rage', :category => 'Special'
-m36 = Move.create :name => 'Dream Eater', :category => 'Special'
-m37 = Move.create :name => 'Drill Peck', :category => 'Physical'
-m38 = Move.create :name => 'Earthquake', :category => 'Physical'
-m39 = Move.create :name => 'Egg Bomb', :category => 'Physical'
-m40 = Move.create :name => 'Ember', :category => 'Special'
-m41 = Move.create :name => 'Explosion', :category => 'Physical'
-m42 = Move.create :name => 'Fire Blast', :category => 'Special'
-m43 = Move.create :name => 'Fire Punch', :category => 'Physical'
-m44 = Move.create :name => 'Fire Spin', :category => 'Special'
-m45 = Move.create :name => 'Fissure', :category => 'Physical'
-m46 = Move.create :name => 'Flamethrower', :category => 'Special'
-m47 = Move.create :name => 'Flash', :category => 'Status'
-m48 = Move.create :name => 'Fly', :category => 'Physical'
-m49 = Move.create :name => 'Focus Energy', :category => 'Status'
-m50 = Move.create :name => 'Fury Attack', :category => 'Physical'
-m51 = Move.create :name => 'Fury Swipes', :category => 'Physical'
-m52 = Move.create :name => 'Glare', :category => 'Status'
-m53 = Move.create :name => 'Growl', :category => 'Status'
-m54 = Move.create :name => 'Growth', :category => 'Status'
-m55 = Move.create :name => 'Guillotine', :category => 'Physical'
-m56 = Move.create :name => 'Gust', :category => 'Special'
-m57 = Move.create :name => 'Harden', :category => 'Status'
-m58 = Move.create :name => 'Haze', :category => 'Status'
-m59 = Move.create :name => 'Headbutt', :category => 'Physical'
-m60 = Move.create :name => 'High Jump Kick', :category => 'Physical'
-m61 = Move.create :name => 'Horn Attack', :category => 'Physical'
-m62 = Move.create :name => 'Horn Drill', :category => 'Physical'
-m63 = Move.create :name => 'Hydro Pump', :category => 'Special'
-m64 = Move.create :name => 'Hyper Beam', :category => 'Special'
-m65 = Move.create :name => 'Hyper Fang', :category => 'Physical'
-m66 = Move.create :name => 'Hypnosis', :category => 'Status'
-m67 = Move.create :name => 'Ice Beam', :category => 'Special'
-m68 = Move.create :name => 'Ice Punch', :category => 'Physical'
-m69 = Move.create :name => 'Jump Kick', :category => 'Physical'
-m70 = Move.create :name => 'Karate Chop', :category => 'Physical'
-m71 = Move.create :name => 'Kinesis', :category => 'Status'
-m72 = Move.create :name => 'Leech Life', :category => 'Physical'
-m73 = Move.create :name => 'Leech Seed', :category => 'Status'
-m74 = Move.create :name => 'Leer', :category => 'Status'
-m75 = Move.create :name => 'Lick', :category => 'Physical'
-m76 = Move.create :name => 'Light Screen', :category => 'Status'
-m77 = Move.create :name => 'Lovely Kiss', :category => 'Status'
-m78 = Move.create :name => 'Low Kick', :category => 'Physical'
-m79 = Move.create :name => 'Meditate', :category => 'Status'
-m80 = Move.create :name => 'Mega Drain', :category => 'Special'
-m81 = Move.create :name => 'Mega Kick', :category => 'Physical'
-m82 = Move.create :name => 'Mega Punch', :category => 'Physical'
-m83 = Move.create :name => 'Metronome', :category => 'Status'
-m84 = Move.create :name => 'Mimic', :category => 'Status'
-m85 = Move.create :name => 'Minimize', :category => 'Status'
-m86 = Move.create :name => 'Mirror Move', :category => 'Status'
-m87 = Move.create :name => 'Mist', :category => 'Status'
-m88 = Move.create :name => 'Night Shade', :category => 'Special'
-m89 = Move.create :name => 'Pay Day', :category => 'Physical'
-m90 = Move.create :name => 'Peck', :category => 'Physical'
-m91 = Move.create :name => 'Petal Dance', :category => 'Special'
-m92 = Move.create :name => 'Pin Missile', :category => 'Physical'
-m93 = Move.create :name => 'Poison Gas', :category => 'Status'
-m94 = Move.create :name => 'Poison Powder', :category => 'Status'
-m95 = Move.create :name => 'Poison Sting', :category => 'Physical'
-m96 = Move.create :name => 'Pound', :category => 'Physical'
-m97 = Move.create :name => 'Psybeam', :category => 'Special'
-m98 = Move.create :name => 'Psychic', :category => 'Special'
-m99 = Move.create :name => 'Psywave', :category => 'Special'
-m100 = Move.create :name => 'Quick Attack', :category => 'Physical'
-m101 = Move.create :name => 'Rage', :category => 'Physical'
-m102 = Move.create :name => 'Razor Leaf', :category => 'Physical'
-m103 = Move.create :name => 'Razor Wind', :category => 'Special'
-m104 = Move.create :name => 'Recover', :category => 'Status'
-m105 = Move.create :name => 'Reflect', :category => 'Status'
-m106 = Move.create :name => 'Rest', :category => 'Status'
-m107 = Move.create :name => 'Roar', :category => 'Status'
-m108 = Move.create :name => 'Rock Slide', :category => 'Physical'
-m109 = Move.create :name => 'Rock Throw', :category => 'Physical'
-m110 = Move.create :name => 'Rolling Kick', :category => 'Physical'
-m111 = Move.create :name => 'Sand Attack', :category => 'Status'
-m112 = Move.create :name => 'Scratch', :category => 'Physical'
-m113 = Move.create :name => 'Screech', :category => 'Status'
-m114 = Move.create :name => 'Seismic Toss', :category => 'Physical'
-m115 = Move.create :name => 'Self-Destruct', :category => 'Physical'
-m116 = Move.create :name => 'Sharpen', :category => 'Status'
-m117 = Move.create :name => 'Sing', :category => 'Status'
-m118 = Move.create :name => 'Skull Bash', :category => 'Physical'
-m119 = Move.create :name => 'Sky Attack', :category => 'Physical'
-m120 = Move.create :name => 'Slam', :category => 'Physical'
-m121 = Move.create :name => 'Slash', :category => 'Physical'
-m122 = Move.create :name => 'Sleep Powder', :category => 'Status'
-m123 = Move.create :name => 'Sludge', :category => 'Special'
-m124 = Move.create :name => 'Smog', :category => 'Special'
-m125 = Move.create :name => 'Smokescreen', :category => 'Status'
-m126 = Move.create :name => 'Soft-Boiled', :category => 'Status'
-m127 = Move.create :name => 'Solar Beam', :category => 'Special'
-m128 = Move.create :name => 'Sonic Boom', :category => 'Special'
-m129 = Move.create :name => 'Spike Cannon', :category => 'Physical'
-m130 = Move.create :name => 'Splash', :category => 'Status'
-m131 = Move.create :name => 'Spore', :category => 'Status'
-m132 = Move.create :name => 'Stomp', :category => 'Physical'
-m133 = Move.create :name => 'Strength', :category => 'Physical'
-m134 = Move.create :name => 'String Shot', :category => 'Status'
-m135 = Move.create :name => 'Struggle', :category => 'Physical'
-m136 = Move.create :name => 'Stun Spore', :category => 'Status'
-m137 = Move.create :name => 'Submission', :category => 'Physical'
-m138 = Move.create :name => 'Substitute', :category => 'Status'
-m139 = Move.create :name => 'Super Fang', :category => 'Physical'
-m140 = Move.create :name => 'Supersonic', :category => 'Status'
-m141 = Move.create :name => 'Surf', :category => 'Special'
-m142 = Move.create :name => 'Swift', :category => 'Special'
-m143 = Move.create :name => 'Swords Dance', :category => 'Status'
-m144 = Move.create :name => 'Tackle', :category => 'Physical'
-m145 = Move.create :name => 'Tail Whip', :category => 'Status'
-m146 = Move.create :name => 'Take Down', :category => 'Physical'
-m147 = Move.create :name => 'Teleport', :category => 'Status'
-m148 = Move.create :name => 'Thrash', :category => 'Physical'
-m149 = Move.create :name => 'Thunder', :category => 'Special'
-m150 = Move.create :name => 'Thunder Punch', :category => 'Physical'
-m151 = Move.create :name => 'Thunder Shock', :category => 'Special'
-m152 = Move.create :name => 'Thunder Wave', :category => 'Status'
-m153 = Move.create :name => 'Thunderbolt', :category => 'Special'
-m154 = Move.create :name => 'Toxic', :category => 'Status'
-m155 = Move.create :name => 'Transform', :category => 'Status'
-m156 = Move.create :name => 'Tri Attack', :category => 'Special'
-m157 = Move.create :name => 'Twineedle', :category => 'Physical'
-m158 = Move.create :name => 'Vine Whip', :category => 'Physical'
-m159 = Move.create :name => 'Vise Grip', :category => 'Physical'
-m160 = Move.create :name => 'Water Gun', :category => 'Special'
-m161 = Move.create :name => 'Waterfall', :category => 'Physical'
-m162 = Move.create :name => 'Whirlwind', :category => 'Status'
-m163 = Move.create :name => 'Wing Attack', :category => 'Physical'
-m164 = Move.create :name => 'Withdraw', :category => 'Status'
-m165 = Move.create :name => 'Wrap', :category => 'Physical'
+m1 = Move.create :name => 'Absorb', :category => 'Special', :description => 'User recovers half the HP inflicted on opponent.'
+m2 = Move.create :name => 'Acid', :category => 'Special', :description => 'May lower opponents Special Defense.'
+m3 = Move.create :name => 'Acid Armor', :category => 'Status', :description => 'Sharply raises users Defense.'
+m4 = Move.create :name => 'Agility', :category => 'Status', :description => 'Sharply raises users Speed.'
+m5 = Move.create :name => 'Amnesia', :category => 'Status', :description => 'Sharply raises users Special Defense.'
+m6 = Move.create :name => 'Aurora Beam', :category => 'Special', :description => 'May lower opponents Attack.'
+m7 = Move.create :name => 'Barrage', :category => 'Physical', :description => 'Hits 2-5 times in one turn.'
+m8 = Move.create :name => 'Barrier', :category => 'Status', :description => 'Sharply raises users Defense.'
+m9 = Move.create :name => 'Bide', :category => 'Physical', :description => 'User takes damage for two turns then strikes back double.'
+m10 = Move.create :name => 'Bind', :category => 'Physical', :description => 'Traps opponent, damaging them for 4-5 turns.'
+m11 = Move.create :name => 'Bite', :category => 'Physical', :description => 'May cause flinching.'
+m12 = Move.create :name => 'Blizzard', :category => 'Special', :description => 'May freeze opponent.'
+m13 = Move.create :name => 'Body Slam', :category => 'Physical', :description => 'May paralyze opponent.'
+m14 = Move.create :name => 'Bone Club', :category => 'Physical', :description => 'May cause flinching.'
+m15 = Move.create :name => 'Bonemerang', :category => 'Physical', :description => 'Hits twice in one turn.'
+m16 = Move.create :name => 'Bubble', :category => 'Special', :description => 'May lower opponents Speed.'
+m17 = Move.create :name => 'Bubblebeam', :category => 'Special', :description => 'May lower opponents Speed.'
+m18 = Move.create :name => 'Clamp', :category => 'Physical', :description => 'Traps opponent, damaging them for 4-5 turns.'
+m19 = Move.create :name => 'Comet Punch', :category => 'Physical', :description => 'Hits 2-5 times in one turn.'
+m20 = Move.create :name => 'Confuse Ray', :category => 'Status', :description => 'Confuses opponent.'
+m21 = Move.create :name => 'Confusion', :category => 'Special', :description => 'May confuse opponent.'
+m22 = Move.create :name => 'Constrict', :category => 'Physical', :description => 'May lower opponents Speed by one stage.'
+m23 = Move.create :name => 'Conversion', :category => 'Status', :description => 'Changes users type to that of its first move.'
+m24 = Move.create :name => 'Counter', :category => 'Physical', :description => 'When hit by a Physical Attack, user strikes back with 2x power.'
+m25 = Move.create :name => 'Crabhammer', :category => 'Physical', :description => 'High critical hit ratio.'
+m26 = Move.create :name => 'Cut', :category => 'Physical', :description => ''
+m27 = Move.create :name => 'Defense Curl', :category => 'Status', :description => 'Raises users Defense.'
+m28 = Move.create :name => 'Dig', :category => 'Physical', :description => 'Digs underground on first turn, attacks on second. Can also escape from caves.'
+m29 = Move.create :name => 'Disable', :category => 'Status', :description => 'Opponent cant use its last attack for a few turns.'
+m30 = Move.create :name => 'Dizzy Punch', :category => 'Physical', :description => 'May confuse opponent.'
+m31 = Move.create :name => 'Double Kick', :category => 'Physical', :description => 'Hits twice in one turn.'
+m32 = Move.create :name => 'Double Slap', :category => 'Physical', :description => 'Hits 2-5 times in one turn.'
+m33 = Move.create :name => 'Double Team', :category => 'Status', :description => 'Raises users Evasiveness.'
+m34 = Move.create :name => 'Double-Edge', :category => 'Physical', :description => 'User receives recoil damage.'
+m35 = Move.create :name => 'Dragon Rage', :category => 'Special', :description => 'Always inflicts 40 HP.'
+m36 = Move.create :name => 'Dream Eater', :category => 'Special', :description => 'User recovers half the HP inflicted on a sleeping opponent.'
+m37 = Move.create :name => 'Drill Peck', :category => 'Physical', :description => ''
+m38 = Move.create :name => 'Earthquake', :category => 'Physical', :description => 'Power is doubled if opponent is underground from using Dig.'
+m39 = Move.create :name => 'Egg Bomb', :category => 'Physical', :description => ''
+m40 = Move.create :name => 'Ember', :category => 'Special', :description => 'May burn opponent.'
+m41 = Move.create :name => 'Explosion', :category => 'Physical', :description => 'User faints.'
+m42 = Move.create :name => 'Fire Blast', :category => 'Special', :description => 'May burn opponent.'
+m43 = Move.create :name => 'Fire Punch', :category => 'Physical', :description => 'May burn opponent.'
+m44 = Move.create :name => 'Fire Spin', :category => 'Special', :description => 'Traps opponent, damaging them for 4-5 turns.'
+m45 = Move.create :name => 'Fissure', :category => 'Physical', :description => 'One-Hit-KO, if it hits.'
+m46 = Move.create :name => 'Flamethrower', :category => 'Special', :description => 'May burn opponent.'
+m47 = Move.create :name => 'Flash', :category => 'Status', :description => 'Lowers opponents Accuracy.'
+m48 = Move.create :name => 'Fly', :category => 'Physical', :description => 'Flies up on first turn, attacks on second turn.'
+m49 = Move.create :name => 'Focus Energy', :category => 'Status', :description => 'Increases critical hit ratio.'
+m50 = Move.create :name => 'Fury Attack', :category => 'Physical', :description => 'Hits 2-5 times in one turn.'
+m51 = Move.create :name => 'Fury Swipes', :category => 'Physical', :description => 'Hits 2-5 times in one turn.'
+m52 = Move.create :name => 'Glare', :category => 'Status', :description => 'Paralyzes opponent.'
+m53 = Move.create :name => 'Growl', :category => 'Status', :description => 'Lowers opponents Attack.'
+m54 = Move.create :name => 'Growth', :category => 'Status', :description => 'Raises users Attack and Special Attack.'
+m55 = Move.create :name => 'Guillotine', :category => 'Physical', :description => 'One-Hit-KO, if it hits.'
+m56 = Move.create :name => 'Gust', :category => 'Special', :description => 'Hits Pokémon using Fly/Bounce with double power.'
+m57 = Move.create :name => 'Harden', :category => 'Status', :description => 'Raises users Defense.'
+m58 = Move.create :name => 'Haze', :category => 'Status', :description => 'Resets all stat changes.'
+m59 = Move.create :name => 'Headbutt', :category => 'Physical', :description => 'May cause flinching.'
+m60 = Move.create :name => 'High Jump Kick', :category => 'Physical', :description => 'If it misses, the user loses half their HP.'
+m61 = Move.create :name => 'Horn Attack', :category => 'Physical', :description => ''
+m62 = Move.create :name => 'Horn Drill', :category => 'Physical', :description => 'One-Hit-KO, if it hits.'
+m63 = Move.create :name => 'Hydro Pump', :category => 'Special', :description => ''
+m64 = Move.create :name => 'Hyper Beam', :category => 'Special', :description => 'User must recharge next turn.'
+m65 = Move.create :name => 'Hyper Fang', :category => 'Physical', :description => 'May cause flinching.'
+m66 = Move.create :name => 'Hypnosis', :category => 'Status', :description => 'Puts opponent to sleep.'
+m67 = Move.create :name => 'Ice Beam', :category => 'Special', :description => 'May freeze opponent.'
+m68 = Move.create :name => 'Ice Punch', :category => 'Physical', :description => 'May freeze opponent.'
+m69 = Move.create :name => 'Jump Kick', :category => 'Physical', :description => 'If it misses, the user loses half their HP.'
+m70 = Move.create :name => 'Karate Chop', :category => 'Physical', :description => 'High critical hit ratio.'
+m71 = Move.create :name => 'Kinesis', :category => 'Status', :description => 'Lowers opponents Accuracy.'
+m72 = Move.create :name => 'Leech Life', :category => 'Physical', :description => '	User recovers half the HP inflicted on opponent.'
+m73 = Move.create :name => 'Leech Seed', :category => 'Status', :description => 'Drains HP from opponent each turn.'
+m74 = Move.create :name => 'Leer', :category => 'Status', :description => 'Lowers opponents Defense.'
+m75 = Move.create :name => 'Lick', :category => 'Physical', :description => 'May paralyze opponent.'
+m76 = Move.create :name => 'Light Screen', :category => 'Status', :description => 'Halves damage from Special attacks for 5 turns.'
+m77 = Move.create :name => 'Lovely Kiss', :category => 'Status', :description => 'Puts opponent to sleep.'
+m78 = Move.create :name => 'Low Kick', :category => 'Physical', :description => 'The heavier the opponent, the stronger the attack.'
+m79 = Move.create :name => 'Meditate', :category => 'Status', :description => 'Raises users Attack.'
+m80 = Move.create :name => 'Mega Drain', :category => 'Special', :description => 'User recovers half the HP inflicted on opponent.'
+m81 = Move.create :name => 'Mega Kick', :category => 'Physical', :description => ''
+m82 = Move.create :name => 'Mega Punch', :category => 'Physical', :description => ''
+m83 = Move.create :name => 'Metronome', :category => 'Status', :description => 'User performs almost any move in the game at random.'
+m84 = Move.create :name => 'Mimic', :category => 'Status', :description => 'Copies the opponents last move.'
+m85 = Move.create :name => 'Minimize', :category => 'Status', :description => 'Sharply raises users Evasiveness.'
+m86 = Move.create :name => 'Mirror Move', :category => 'Status', :description => 'User performs the opponents last move.'
+m87 = Move.create :name => 'Mist', :category => 'Status', :description => 'Users stats cannot be changed for a period of time.'
+m88 = Move.create :name => 'Night Shade', :category => 'Special', :description => 'Inflicts damage equal to users level.'
+m89 = Move.create :name => 'Pay Day', :category => 'Physical', :description => 'A small amount of money is gained after the battle resolves.'
+m90 = Move.create :name => 'Peck', :category => 'Physical', :description => ''
+m91 = Move.create :name => 'Petal Dance', :category => 'Special', :description => 'User attacks for 2-3 turns but then becomes confused.'
+m92 = Move.create :name => 'Pin Missile', :category => 'Physical', :description => 'Hits 2-5 times in one turn.'
+m93 = Move.create :name => 'Poison Gas', :category => 'Status', :description => 'Poisons opponent.'
+m94 = Move.create :name => 'Poison Powder', :category => 'Status', :description => 'Poisons opponent.'
+m95 = Move.create :name => 'Poison Sting', :category => 'Physical', :description => 'May poison the opponent.'
+m96 = Move.create :name => 'Pound', :category => 'Physical', :description => ''
+m97 = Move.create :name => 'Psybeam', :category => 'Special', :description => 'May confuse opponent.'
+m98 = Move.create :name => 'Psychic', :category => 'Special', :description => 'May lower opponents Special Defense.'
+m99 = Move.create :name => 'Psywave', :category => 'Special', :description => 'Inflicts damage 50-150% of users level.'
+m100 = Move.create :name => 'Quick Attack', :category => 'Physical', :description => 'User attacks first.'
+m101 = Move.create :name => 'Rage', :category => 'Physical', :description => 'Raises users Attack when hit.'
+m102 = Move.create :name => 'Razor Leaf', :category => 'Physical', :description => 'High critical hit ratio.'
+m103 = Move.create :name => 'Razor Wind', :category => 'Special', :description => 'Charges on first turn, attacks on second. High critical hit ratio.'
+m104 = Move.create :name => 'Recover', :category => 'Status', :description => 'User recovers half its max HP.'
+m105 = Move.create :name => 'Reflect', :category => 'Status', :description => 'Halves damage from Physical attacks for 5 turns.'
+m106 = Move.create :name => 'Rest', :category => 'Status', :description => 'User sleeps for 2 turns, but user is fully healed.'
+m107 = Move.create :name => 'Roar', :category => 'Status', :description => 'In battles, the opponent switches. In the wild, the Pokémon runs.'
+m108 = Move.create :name => 'Rock Slide', :category => 'Physical', :description => 'May cause flinching.'
+m109 = Move.create :name => 'Rock Throw', :category => 'Physical', :description => ''
+m110 = Move.create :name => 'Rolling Kick', :category => 'Physical', :description => 'May cause flinching.'
+m111 = Move.create :name => 'Sand Attack', :category => 'Status', :description => 'Lowers opponents Accuracy.'
+m112 = Move.create :name => 'Scratch', :category => 'Physical', :description => ''
+m113 = Move.create :name => 'Screech', :category => 'Status', :description => 'Sharply lowers opponents Defense.'
+m114 = Move.create :name => 'Seismic Toss', :category => 'Physical', :description => 'Inflicts damage equal to users level.'
+m115 = Move.create :name => 'Self-Destruct', :category => 'Physical', :description => 'User faints.'
+m116 = Move.create :name => 'Sharpen', :category => 'Status', :description => 'Raises users Attack.'
+m117 = Move.create :name => 'Sing', :category => 'Status', :description => 'Puts opponent to sleep.'
+m118 = Move.create :name => 'Skull Bash', :category => 'Physical', :description => 'Raises Defense on first turn, attacks on second.'
+m119 = Move.create :name => 'Sky Attack', :category => 'Physical', :description => 'Charges on first turn, attacks on second. May cause flinching. High critical hit ratio.'
+m120 = Move.create :name => 'Slam', :category => 'Physical', :description => ''
+m121 = Move.create :name => 'Slash', :category => 'Physical', :description => 'High critical hit ratio.'
+m122 = Move.create :name => 'Sleep Powder', :category => 'Status', :description => 'Puts opponent to sleep.'
+m123 = Move.create :name => 'Sludge', :category => 'Special', :description => 'May poison opponent.'
+m124 = Move.create :name => 'Smog', :category => 'Special', :description => 'May poison opponent.'
+m125 = Move.create :name => 'Smokescreen', :category => 'Status', :description => 'Lowers opponents Accuracy.'
+m126 = Move.create :name => 'Soft-Boiled', :category => 'Status', :description => 'User recovers half its max HP.'
+m127 = Move.create :name => 'Solar Beam', :category => 'Special', :description => 'Charges on first turn, attacks on second.'
+m128 = Move.create :name => 'Sonic Boom', :category => 'Special', :description => 'Always inflicts 20 HP.'
+m129 = Move.create :name => 'Spike Cannon', :category => 'Physical', :description => 'Hits 2-5 times in one turn.'
+m130 = Move.create :name => 'Splash', :category => 'Status', :description => 'Doesnt do ANYTHING.'
+m131 = Move.create :name => 'Spore', :category => 'Status', :description => 'Puts opponent to sleep.'
+m132 = Move.create :name => 'Stomp', :category => 'Physical', :description => 'May cause flinching.'
+m133 = Move.create :name => 'Strength', :category => 'Physical', :description => ''
+m134 = Move.create :name => 'String Shot', :category => 'Status', :description => 'Sharply lowers opponents Speed.'
+m135 = Move.create :name => 'Struggle', :category => 'Physical', :description => 'Only usable when all PP are gone. Hurts the user.'
+m136 = Move.create :name => 'Stun Spore', :category => 'Status', :description => 'Paralyzes opponent.'
+m137 = Move.create :name => 'Submission', :category => 'Physical', :description => 'User receives recoil damage.'
+m138 = Move.create :name => 'Substitute', :category => 'Status', :description => 'Uses HP to creates a decoy that takes hits.'
+m139 = Move.create :name => 'Super Fang', :category => 'Physical', :description => 'Always takes off half of the opponents HP.'
+m140 = Move.create :name => 'Supersonic', :category => 'Status', :description => 'Confuses opponent.'
+m141 = Move.create :name => 'Surf', :category => 'Special', :description => 'Hits all adjacent Pokémon.'
+m142 = Move.create :name => 'Swift', :category => 'Special', :description => 'Ignores Accuracy and Evasiveness.'
+m143 = Move.create :name => 'Swords Dance', :category => 'Status', :description => 'Sharply raises users Attack.'
+m144 = Move.create :name => 'Tackle', :category => 'Physical', :description => ''
+m145 = Move.create :name => 'Tail Whip', :category => 'Status', :description => 'Lowers opponents Defense.'
+m146 = Move.create :name => 'Take Down', :category => 'Physical', :description => 'User receives recoil damage.'
+m147 = Move.create :name => 'Teleport', :category => 'Status', :description => 'Allows user to flee wild battles; also warps player to last PokéCenter.'
+m148 = Move.create :name => 'Thrash', :category => 'Physical', :description => 'User attacks for 2-3 turns but then becomes confused.'
+m149 = Move.create :name => 'Thunder', :category => 'Special', :description => 'May paralyze opponent.'
+m150 = Move.create :name => 'Thunder Punch', :category => 'Physical', :description => 'May paralyze opponent.'
+m151 = Move.create :name => 'Thunder Shock', :category => 'Special', :description => 'May paralyze opponent.'
+m152 = Move.create :name => 'Thunder Wave', :category => 'Status', :description => 'Paralyzes opponent.'
+m153 = Move.create :name => 'Thunderbolt', :category => 'Special', :description => 'May paralyze opponent.'
+m154 = Move.create :name => 'Toxic', :category => 'Status', :description => 'Badly poisons opponent.'
+m155 = Move.create :name => 'Transform', :category => 'Status', :description => 'User takes on the form and attacks of the opponent.'
+m156 = Move.create :name => 'Tri Attack', :category => 'Special', :description => 'May paralyze, burn or freeze opponent.'
+m157 = Move.create :name => 'Twineedle', :category => 'Physical', :description => 'Hits twice in one turn. May poison opponent.'
+m158 = Move.create :name => 'Vine Whip', :category => 'Physical', :description => ''
+m159 = Move.create :name => 'Vise Grip', :category => 'Physical', :description => ''
+m160 = Move.create :name => 'Water Gun', :category => 'Special', :description => ''
+m161 = Move.create :name => 'Waterfall', :category => 'Physical', :description => 'May cause flinching.'
+m162 = Move.create :name => 'Whirlwind', :category => 'Status', :description => 'In battles, the opponent switches. In the wild, the Pokémon runs.'
+m163 = Move.create :name => 'Wing Attack', :category => 'Physical', :description => ''
+m164 = Move.create :name => 'Withdraw', :category => 'Status', :description => 'Raises users Defense.'
+m165 = Move.create :name => 'Wrap', :category => 'Physical', :description => 'Traps opponent, damaging them for 4-5 turns.'
 puts "#{ Move.count } moves"
 
 Element.destroy_all
@@ -346,8 +346,6 @@ puts "#{ Element.count } types"
 
 # Associations ###################################################
 puts "Pokemon and Elements"
-# p6.elements << e1 << e11
-# p4.elements << e1
 # Fire
 e1.pokemons << p4 << p5 << p6 << p37 << p38 << p58 << p59 << p77 << p78 << p136
 # Grass
@@ -380,92 +378,175 @@ e14.pokemons << p92 << p93 << p94
 e15.pokemons << p147 << p148 << p149
 
 puts "Pokemon and Moves"
-m1.pokemons << p1 << p2 << p3
+# m1.pokemons << p1 << p2 << p3
+p1.moves << m1 << m2 << m3 << m4 << m5
+p2.moves << m1 << m2 << m3 << m4 << m5
+p3.moves << m1 << m2 << m3 << m4 << m5
+p4.moves << m1 << m2 << m3 << m4 << m5
+p5.moves << m1 << m2 << m3 << m4 << m5
+p6.moves << m1 << m2 << m3 << m4 << m5
+p7.moves << m1 << m2 << m3 << m4 << m5
+p8.moves << m1 << m2 << m3 << m4 << m5
+p9.moves << m1 << m2 << m3 << m4 << m5
+p10.moves << m1 << m2 << m3 << m4 << m5
+p11.moves << m1 << m2 << m3 << m4 << m5
+p12.moves << m1 << m2 << m3 << m4 << m5
+p13.moves << m1 << m2 << m3 << m4 << m5
+p14.moves << m1 << m2 << m3 << m4 << m5
+p15.moves << m1 << m2 << m3 << m4 << m5
+p16.moves << m1 << m2 << m3 << m4 << m5
+p17.moves << m1 << m2 << m3 << m4 << m5
+p18.moves << m1 << m2 << m3 << m4 << m5
+p19.moves << m1 << m2 << m3 << m4 << m5
+p20.moves << m1 << m2 << m3 << m4 << m5
+p21.moves << m1 << m2 << m3 << m4 << m5
+p22.moves << m1 << m2 << m3 << m4 << m5
+p23.moves << m1 << m2 << m3 << m4 << m5
+p24.moves << m1 << m2 << m3 << m4 << m5
+p25.moves << m1 << m2 << m3 << m4 << m5
+p26.moves << m1 << m2 << m3 << m4 << m5
+p27.moves << m1 << m2 << m3 << m4 << m5
+p28.moves << m1 << m2 << m3 << m4 << m5
+p29.moves << m1 << m2 << m3 << m4 << m5
+p30.moves << m1 << m2 << m3 << m4 << m5
+p31.moves << m1 << m2 << m3 << m4 << m5
+p32.moves << m1 << m2 << m3 << m4 << m5
+p33.moves << m1 << m2 << m3 << m4 << m5
+p34.moves << m1 << m2 << m3 << m4 << m5
+p35.moves << m1 << m2 << m3 << m4 << m5
+p36.moves << m1 << m2 << m3 << m4 << m5
+p37.moves << m1 << m2 << m3 << m4 << m5
+p38.moves << m1 << m2 << m3 << m4 << m5
+p39.moves << m1 << m2 << m3 << m4 << m5
+p40.moves << m1 << m2 << m3 << m4 << m5
+p41.moves << m1 << m2 << m3 << m4 << m5
+p42.moves << m1 << m2 << m3 << m4 << m5
+p43.moves << m1 << m2 << m3 << m4 << m5
+p44.moves << m1 << m2 << m3 << m4 << m5
+p45.moves << m1 << m2 << m3 << m4 << m5
+p46.moves << m1 << m2 << m3 << m4 << m5
+p47.moves << m1 << m2 << m3 << m4 << m5
+p48.moves << m1 << m2 << m3 << m4 << m5
+p49.moves << m1 << m2 << m3 << m4 << m5
+p50.moves << m1 << m2 << m3 << m4 << m5
+p51.moves << m1 << m2 << m3 << m4 << m5
+p52.moves << m1 << m2 << m3 << m4 << m5
+p53.moves << m1 << m2 << m3 << m4 << m5
+p54.moves << m1 << m2 << m3 << m4 << m5
+p55.moves << m1 << m2 << m3 << m4 << m5
+p56.moves << m1 << m2 << m3 << m4 << m5
+p57.moves << m1 << m2 << m3 << m4 << m5
+p58.moves << m1 << m2 << m3 << m4 << m5
+p59.moves << m1 << m2 << m3 << m4 << m5
+p60.moves << m1 << m2 << m3 << m4 << m5
+p61.moves << m1 << m2 << m3 << m4 << m5
+p62.moves << m1 << m2 << m3 << m4 << m5
+p63.moves << m1 << m2 << m3 << m4 << m5
+p64.moves << m1 << m2 << m3 << m4 << m5
+p65.moves << m1 << m2 << m3 << m4 << m5
+p66.moves << m1 << m2 << m3 << m4 << m5
+p67.moves << m1 << m2 << m3 << m4 << m5
+p68.moves << m1 << m2 << m3 << m4 << m5
+p69.moves << m1 << m2 << m3 << m4 << m5
+p70.moves << m1 << m2 << m3 << m4 << m5
+p71.moves << m1 << m2 << m3 << m4 << m5
+p72.moves << m1 << m2 << m3 << m4 << m5
+p73.moves << m1 << m2 << m3 << m4 << m5
+p74.moves << m1 << m2 << m3 << m4 << m5
+p75.moves << m1 << m2 << m3 << m4 << m5
+p76.moves << m1 << m2 << m3 << m4 << m5
+p77.moves << m1 << m2 << m3 << m4 << m5
+p78.moves << m1 << m2 << m3 << m4 << m5
+p79.moves << m1 << m2 << m3 << m4 << m5
+p80.moves << m1 << m2 << m3 << m4 << m5
+p81.moves << m1 << m2 << m3 << m4 << m5
+p82.moves << m1 << m2 << m3 << m4 << m5
+p83.moves << m1 << m2 << m3 << m4 << m5
+p84.moves << m1 << m2 << m3 << m4 << m5
+p85.moves << m1 << m2 << m3 << m4 << m5
+p86.moves << m1 << m2 << m3 << m4 << m5
+p87.moves << m1 << m2 << m3 << m4 << m5
+p88.moves << m1 << m2 << m3 << m4 << m5
+p89.moves << m1 << m2 << m3 << m4 << m5
+p90.moves << m1 << m2 << m3 << m4 << m5
+p91.moves << m1 << m2 << m3 << m4 << m5
+p92.moves << m1 << m2 << m3 << m4 << m5
+p93.moves << m1 << m2 << m3 << m4 << m5
+p94.moves << m1 << m2 << m3 << m4 << m5
+p95.moves << m1 << m2 << m3 << m4 << m5
+p96.moves << m1 << m2 << m3 << m4 << m5
+p97.moves << m1 << m2 << m3 << m4 << m5
+p98.moves << m1 << m2 << m3 << m4 << m5
+p99.moves << m1 << m2 << m3 << m4 << m5
+p100.moves << m1 << m2 << m3 << m4 << m5
+p101.moves << m1 << m2 << m3 << m4 << m5
+p102.moves << m1 << m2 << m3 << m4 << m5
+p103.moves << m1 << m2 << m3 << m4 << m5
+p104.moves << m1 << m2 << m3 << m4 << m5
+p105.moves << m1 << m2 << m3 << m4 << m5
+p106.moves << m1 << m2 << m3 << m4 << m5
+p107.moves << m1 << m2 << m3 << m4 << m5
+p108.moves << m1 << m2 << m3 << m4 << m5
+p109.moves << m1 << m2 << m3 << m4 << m5
+p110.moves << m1 << m2 << m3 << m4 << m5
+p111.moves << m1 << m2 << m3 << m4 << m5
+p112.moves << m1 << m2 << m3 << m4 << m5
+p113.moves << m1 << m2 << m3 << m4 << m5
+p114.moves << m1 << m2 << m3 << m4 << m5
+p115.moves << m1 << m2 << m3 << m4 << m5
+p116.moves << m1 << m2 << m3 << m4 << m5
+p117.moves << m1 << m2 << m3 << m4 << m5
+p118.moves << m1 << m2 << m3 << m4 << m5
+p119.moves << m1 << m2 << m3 << m4 << m5
+p120.moves << m1 << m2 << m3 << m4 << m5
+p121.moves << m1 << m2 << m3 << m4 << m5
+p122.moves << m1 << m2 << m3 << m4 << m5
+p123.moves << m1 << m2 << m3 << m4 << m5
+p124.moves << m1 << m2 << m3 << m4 << m5
+p125.moves << m1 << m2 << m3 << m4 << m5
+p126.moves << m1 << m2 << m3 << m4 << m5
+p127.moves << m1 << m2 << m3 << m4 << m5
+p128.moves << m1 << m2 << m3 << m4 << m5
+p129.moves << m1 << m2 << m3 << m4 << m5
+p130.moves << m1 << m2 << m3 << m4 << m5
+p131.moves << m1 << m2 << m3 << m4 << m5
+p132.moves << m1 << m2 << m3 << m4 << m5
+p133.moves << m1 << m2 << m3 << m4 << m5
+p134.moves << m1 << m2 << m3 << m4 << m5
+p135.moves << m1 << m2 << m3 << m4 << m5
+p136.moves << m1 << m2 << m3 << m4 << m5
+p137.moves << m1 << m2 << m3 << m4 << m5
+p138.moves << m1 << m2 << m3 << m4 << m5
+p139.moves << m1 << m2 << m3 << m4 << m5
+p140.moves << m1 << m2 << m3 << m4 << m5
+p141.moves << m1 << m2 << m3 << m4 << m5
+p142.moves << m1 << m2 << m3 << m4 << m5
+p143.moves << m1 << m2 << m3 << m4 << m5
+p144.moves << m1 << m2 << m3 << m4 << m5
+p145.moves << m1 << m2 << m3 << m4 << m5
+p146.moves << m1 << m2 << m3 << m4 << m5
+p147.moves << m1 << m2 << m3 << m4 << m5
+p148.moves << m1 << m2 << m3 << m4 << m5
+p149.moves << m1 << m2 << m3 << m4 << m5
+p150.moves << m1 << m2 << m3 << m4 << m5
+p151.moves << m1 << m2 << m3 << m4 << m5
 
-p1.moves << m1 << m3
-p2.moves << m2
-p3.moves << m1 << m3
-p4.moves << m2
-p5.moves << m1 << m3
-p6.moves << m2
-p7.moves << m1 << m3
-p8.moves << m2
-p9.moves << m1 << m3
-p10.moves << m2
-p11.moves << m1 << m3
-p12.moves << m2
-p13.moves << m1 << m3
-p14.moves << m2
-p15.moves << m1 << m3
-p16.moves << m2
-p17.moves << m1 << m3
-p18.moves << m2
-p19.moves << m1 << m3
-p20.moves << m2
-p21.moves << m1 << m3
-p22.moves << m2
-p23.moves << m1 << m3
-p24.moves << m2
-p25.moves << m1 << m3
-p26.moves << m2
-p27.moves << m1 << m3
-p28.moves << m2
-p29.moves << m1 << m3
-p30.moves << m2
-p31.moves << m1 << m3
-p32.moves << m2
-p33.moves << m1 << m3
-p34.moves << m2
-p35.moves << m1 << m3
-p36.moves << m2
-p37.moves << m1 << m3
-p38.moves << m2
-p39.moves << m1 << m3
-p40.moves << m2
-p41.moves << m1 << m3
-p42.moves << m2
-p43.moves << m1 << m3
-p44.moves << m2
-p45.moves << m1 << m3
-p46.moves << m2
-p47.moves << m1 << m3
-p48.moves << m2
-p49.moves << m1 << m3
-p50.moves << m2
-p51.moves << m1 << m3
-p52.moves << m2
-p53.moves << m1 << m3
-p54.moves << m2
-p55.moves << m1 << m3
-p56.moves << m2
-p57.moves << m1 << m3
-p58.moves << m2
-p59.moves << m1 << m3
-p60.moves << m2
-p61.moves << m1 << m3
-p62.moves << m2
-p63.moves << m1 << m3
-p64.moves << m2
-p65.moves << m1 << m3
-p66.moves << m2
-
-
-# puts "Elements and Moves"
-# e1.moves << m40 << m42 << m43 << m44 << m46 # Fire
-# e2.moves << m1 << m73 << m80 << m91 << m102 << m122 << m127 << m131 << m136 << m158 # Grass
-# e3.moves << m16 << m17 << m18 << m25 << m63 << m141 << m160 << m161 << m164 # Water
-# e4.moves << m2 << m3 << m93 << m94 << m95 << m123 << m124 << m154 # Poison
-# e5.moves << m72 << m92 << m134 << m157 # Bug
-# e6.moves << m149 << m150 << m151 << m152 << m153 # Electric
-# e7.moves << m24 << m31 << m60 << m69 << m70 << m78 << m110 << m114 << m137 # Fighting
-# e8.moves << m108 << m109 # Rock
-# e9.moves << m14 << m15 << m28 << m38 << m45 << m111 # Ground
-# e10.moves << m6 << m12 << m58 << m67 << m68 << m87 # Ice
-# e11.moves << m37 << m48 << m56 << m86 << m90 << m119 << m163 # Flying
-# e12.moves << m7 << m9 << m10 << m11 << m13 << m19 << m22 << m23 << m26 << m27 << m29 << m30 << m32 << m33 << m34 << m39 << m41 << m47 << m49 << m50 << m51 << m52 << m53 << m54 << m55 << m57 << m59 << m61 << m62 << m64 << m65 << m74 << m77 << m81 << m82 << m83 << m84 << m85 << m89 << m96 << m100 << m101 << m103 << m104 << m107 << m112 << m113 << m115 << m116 << m117 << m118 << m120 << m121 << m125 << m126 << m128 << m129 << m130 << m132 << m133 << m135 << m138 << m139 << m140 << m142 << m143 << m144 << m145 << m146 << m148 << m155 << m156 << m159 << m162 << m165 # Normal
-# e13.moves << m4 << m5 << m8 << m21 << m36 << m66 << m71 << m76 << m79 << m97 << m98 << m99 << m105 << m106 << m147 # Psychic
-# e14.moves << m20 << m75 << m88 # Ghost
-# e15.moves << m35 # Dragon
+puts "Elements and Moves"
+e1.moves << m40 << m42 << m43 << m44 << m46 # Fire
+e2.moves << m1 << m73 << m80 << m91 << m102 << m122 << m127 << m131 << m136 << m158 # Grass
+e3.moves << m16 << m17 << m18 << m25 << m63 << m141 << m160 << m161 << m164 # Water
+e4.moves << m2 << m3 << m93 << m94 << m95 << m123 << m124 << m154 # Poison
+e5.moves << m72 << m92 << m134 << m157 # Bug
+e6.moves << m149 << m150 << m151 << m152 << m153 # Electric
+e7.moves << m24 << m31 << m60 << m69 << m70 << m78 << m110 << m114 << m137 # Fighting
+e8.moves << m108 << m109 # Rock
+e9.moves << m14 << m15 << m28 << m38 << m45 << m111 # Ground
+e10.moves << m6 << m12 << m58 << m67 << m68 << m87 # Ice
+e11.moves << m37 << m48 << m56 << m86 << m90 << m119 << m163 # Flying
+e12.moves << m7 << m9 << m10 << m11 << m13 << m19 << m22 << m23 << m26 << m27 << m29 << m30 << m32 << m33 << m34 << m39 << m41 << m47 << m49 << m50 << m51 << m52 << m53 << m54 << m55 << m57 << m59 << m61 << m62 << m64 << m65 << m74 << m77 << m81 << m82 << m83 << m84 << m85 << m89 << m96 << m100 << m101 << m103 << m104 << m107 << m112 << m113 << m115 << m116 << m117 << m118 << m120 << m121 << m125 << m126 << m128 << m129 << m130 << m132 << m133 << m135 << m138 << m139 << m140 << m142 << m143 << m144 << m145 << m146 << m148 << m155 << m156 << m159 << m162 << m165 # Normal
+e13.moves << m4 << m5 << m8 << m21 << m36 << m66 << m71 << m76 << m79 << m97 << m98 << m99 << m105 << m106 << m147 # Psychic
+e14.moves << m20 << m75 << m88 # Ghost
+e15.moves << m35 # Dragon
 
 #m1.elements << e2
 
