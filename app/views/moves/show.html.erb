@@ -7,7 +7,7 @@
         <%= @move.category %>
     </div>
 
-        <%= image_tag(@move.element.image, :class => 'featureMovePokedex') %>
+        <%= image_tag @move.element.image, :class => 'featureMovePokedex' if @move.element.image.present? %>
 
     <div class="MoveDescription">
         <%= @move.description %>

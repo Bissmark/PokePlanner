@@ -40,9 +40,7 @@ class PokemonsController < ApplicationController
 
     def release
         @pokemon = Pokemon.find params[:user][:pokemons]
-        # raise 'hell'
         @current_user.pokemons.delete @pokemon
-        #@pokemon.destroy
         redirect_to party_path
     end
     

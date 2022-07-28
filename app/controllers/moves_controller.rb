@@ -22,7 +22,6 @@ class MovesController < ApplicationController
     def update
         move = Move.find params[:id]
         move.update move_params
-        # redirect_to book
     end
 
     def show
