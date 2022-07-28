@@ -8,10 +8,15 @@
             <%# select :move, :moves, :prompt => 'Select a Move' %>
             <%# select :moves, :name, :prompt => 'Select a Move' %>
             <%# select :moves, Move.pluck(:name), include_blank: true %>
-            <%= render :partial => 'formmoves' %>
-            <%= render :partial => 'formmoves' %>
-            <%= render :partial => 'formmoves' %>
-            <%= render :partial => 'formmoves' %>
+            <%= select_tag(:moves, options_for_select(pokemon.moves.pluck(:name, :id)), :include_blank => true) %>
+            <%= select_tag(:moves, options_for_select(pokemon.moves.pluck(:name, :id)), :include_blank => true) %>
+            <%= select_tag(:moves, options_for_select(pokemon.moves.pluck(:name, :id)), :include_blank => true) %>
+            <%= select_tag(:moves, options_for_select(pokemon.moves.pluck(:name, :id)), :include_blank => true) %>
+
+            <%# render :partial => 'formmoves' %>
+            <%# render :partial => 'formmoves' %>
+            <%# render :partial => 'formmoves' %>
+            <%# render :partial => 'formmoves' %>
             </div>
         <% end %>
 </div>

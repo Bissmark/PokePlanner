@@ -1,8 +1,8 @@
-<%# form_for :moves do |f| %>
-    <%# f.select :pokemons, @current_user.pokemons.pluck(:name), :include_blank => true %>
+<%= form_for :moves do |f| %>
+    <%= f.select :moves, @current_user.pokemons.pluck(:name), :include_blank => true %>
     <%# f.submit "Release Pokemon", @current_user.pokemons, :method => 'delete' %>
-<%# end %>
-
-<%= form_for @current_user, :url => release_pokemon_path do |f| %>
-    <%= f.select :pokemons, @current_user.pokemons.pluck(:name, :id), :include_blank => true %>
 <% end %>
+
+<%# form_for @current_user, :url => release_pokemon_path do |f| %>
+    <%# f.select :pokemons, @current_user.pokemons.pluck(:name, :id), :include_blank => true %>
+<%# end %>
