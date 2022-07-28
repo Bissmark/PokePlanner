@@ -1,9 +1,9 @@
 body {
     background-color: #98b09a;
     font-family: 'Ubuntu Mono', monospace;
-    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfRK6CTxodtGdAoc8x1P4uqPNHAhOUBOf57A&usqp=CAU');
+    background-image: url('https://st2.depositphotos.com/3213441/12022/v/950/depositphotos_120226584-stock-illustration-pokemon-go-pokeball-seamless-texture.jpg');
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
 }
 
 form {
@@ -23,16 +23,12 @@ form {
     margin: 0 auto;
     background-color: white;
     display: grid;
-    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfRK6CTxodtGdAoc8x1P4uqPNHAhOUBOf57A&usqp=CAU');
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 .Party {
     text-align: center;
     width: 20%;
-    display: block;
-    margin: 0 auto;
+    display: grid;
 }
 
 .PokemonEntry {
@@ -139,6 +135,17 @@ button {
 
 nav {
     text-align: center;
+    margin: 0 auto;
+    max-width: 960px;
+    background-color: #c32f2f;
+    text-align: center;
+}
+
+footer {
+    max-width: 960px;
+    background-color: #c32f2f;
+    display: flex;
+    justify-content: center;
 }
 
 .feature {
@@ -330,4 +337,16 @@ h2 {
 .thumbnail:focus,
 .thumbnail:active {
     transform: scale(1.1);
+}
+
+a {
+    color: black;
+}
+
+.colourbottombar {
+    color: white;
+}
+
+form {
+    display: block;
 }

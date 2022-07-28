@@ -37,6 +37,14 @@ class PokemonsController < ApplicationController
         pokemon.destroy
         redirect_to pokemons_path
     end
+
+    def release
+        @pokemon = Pokemon.find params[:user][:pokemons]
+        # raise 'hell'
+        @current_user.pokemons.delete @pokemon
+        #@pokemon.destroy
+        redirect_to party_path
+    end
     
     private 
     def pokemon_params

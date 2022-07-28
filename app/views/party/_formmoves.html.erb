@@ -1,4 +1,4 @@
-<%= form_for :moves do |f| %>
-    <%= f.select :pokemons, @current_user.pokemons.pluck(:name), :include_blank => true %>
-    <%= f.submit "Release Pokemon" %>
-<% end %>
+<%# form_for :moves do |f| %>
+    <%# f.select :pokemons, @current_user.pokemons.pluck(:name), :include_blank => true %>
+    <%# f.submit "Release Pokemon", @current_user.pokemons, :method => 'delete' %>
+<%# end %>

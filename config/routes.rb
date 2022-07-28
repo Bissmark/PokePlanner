@@ -12,4 +12,6 @@ Rails.application.routes.draw do
 
   get '/party' => 'party#show'
   post '/party' => 'party#update'
+
+  patch '/pokemon/release' => 'pokemons#release', :as => :release_pokemon
 end

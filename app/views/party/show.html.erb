@@ -12,8 +12,8 @@
             </div>
         <% end %>
 </div>
-<nav>
-    <%= link_to 'Add Pokemon to Party', pokemons_path if @current_user.pokemons.size <= 5 %>
-    <%= render :partial => 'form' %>
-    <a href="">Battle Opponent</a>
-</nav>
+<footer>
+    <%= link_to 'Add Pokemon to Party', pokemons_path, class: "colourbottombar" if @current_user.pokemons.size <= 5 %>
+    <%= render :partial => 'form', class: "colourbottombar" %>
+    <a href="" class="colourbottombar">Battle Opponent</a>
+</footer>

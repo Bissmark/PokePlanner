@@ -15,6 +15,13 @@ class PartyController < ApplicationController
         redirect_to party_path
     end
 
+    def release
+        @pokemon = Pokemon.find params[:id]
+        @current_user.pokemons.delete @pokemon
+        #@pokemon.destroy
+        redirect_to party_path
+    end    
+
     # private 
     # def pokemon_params
     #     params.require(@pokemon).permit(:name, :image)

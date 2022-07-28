@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/287/287221.png"/>
     <title>Pokemon Database Project</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -14,17 +15,17 @@
 
   <body>
     <nav>
-      <%= link_to 'Home', root_path %>
+      <%= link_to 'Home', root_path, class: "colourbottombar" %>
 
       <% if @current_user.present? %>
-        <%= link_to 'All Users', users_path if @current_user.admin? %>
-        <%= link_to 'All Pokemon', pokemons_path %>
-        <%= link_to 'All Moves', moves_path %>
-        <%= link_to 'Your Party', party_path %>
-        <%= link_to "Logout #{ @current_user.email }", login_path, :method => 'delete' %>
+        <%= link_to 'All Users', users_path, class: "colourbottombar"  if @current_user.admin? %>
+        <%= link_to 'All Pokemon', pokemons_path, class: "colourbottombar" %>
+        <%= link_to 'All Moves', moves_path, class: "colourbottombar" %>
+        <%= link_to 'Your Party', party_path, class: "colourbottombar" %>
+        <%= link_to "Logout #{ @current_user.email }", login_path, class: "colourbottombar", :method => 'delete' %>
       <% else %>
-        <%= link_to 'Sign Up', new_user_path %>
-        <%= link_to 'Sign In', login_path %>
+        <%= link_to 'Sign Up', new_user_path, class: "colourbottombar" %>
+        <%= link_to 'Sign In', login_path, class: "colourbottombar" %>
       <% end %>
     </nav>
     
