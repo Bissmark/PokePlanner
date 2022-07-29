@@ -2,21 +2,12 @@
 <div class="PartyPokemon">
         <% @current_user.pokemons.each do |pokemon| %>
             <div class="Party">
-            <%= pokemon.name %>
-            <img class="party" src="<%= pokemon.image %>">
-            <%# select :from, ['asdasd', 'asdwqd', 'csacs'], :prompt => 'Select a Move' %>
-            <%# select :move, :moves, :prompt => 'Select a Move' %>
-            <%# select :moves, :name, :prompt => 'Select a Move' %>
-            <%# select :moves, Move.pluck(:name), include_blank: true %>
-            <%= select_tag(:moves, options_for_select(pokemon.moves.pluck(:name, :id)), :include_blank => true) %>
-            <%= select_tag(:moves, options_for_select(pokemon.moves.pluck(:name, :id)), :include_blank => true) %>
-            <%= select_tag(:moves, options_for_select(pokemon.moves.pluck(:name, :id)), :include_blank => true) %>
-            <%= select_tag(:moves, options_for_select(pokemon.moves.pluck(:name, :id)), :include_blank => true) %>
-
-            <%# render :partial => 'formmoves' %>
-            <%# render :partial => 'formmoves' %>
-            <%# render :partial => 'formmoves' %>
-            <%# render :partial => 'formmoves' %>
+                <%= pokemon.name %>
+                <img class="party" src="<%= pokemon.image %>">
+                <%= select_tag(:moves, options_for_select(pokemon.moves.pluck(:name, :id)), :include_blank => true) %>
+                <%= select_tag(:moves, options_for_select(pokemon.moves.pluck(:name, :id)), :include_blank => true) %>
+                <%= select_tag(:moves, options_for_select(pokemon.moves.pluck(:name, :id)), :include_blank => true) %>
+                <%= select_tag(:moves, options_for_select(pokemon.moves.pluck(:name, :id)), :include_blank => true) %>
             </div>
         <% end %>
 </div>

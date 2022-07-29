@@ -399,40 +399,40 @@ u1.pokemons << p1 << p2 << p56 << p78 << p134
 u2.pokemons << p2 << p3
 
 puts "Pokemon and moves"
-p1.moves << m1 << m2 << m3 << m4
-p2.moves << m1 << m2 << m3 << m4
-p3.moves << m1 << m2 << m3 << m4
-p4.moves << m1 << m2 << m3 << m4
-p5.moves << m1 << m2 << m3 << m4
-p6.moves << m1 << m2 << m3 << m4
-p7.moves << m1 << m2 << m3 << m4
-p8.moves << m1 << m2 << m3 << m4
-p9.moves << m1 << m2 << m3 << m4
-p10.moves << m1 << m2 << m3 << m4
-p11.moves << m1 << m2 << m3 << m4
-p12.moves << m1 << m2 << m3 << m4
-p13.moves << m1 << m2 << m3 << m4
-p14.moves << m1 << m2 << m3 << m4
-p15.moves << m1 << m2 << m3 << m4
-p16.moves << m1 << m2 << m3 << m4
-p17.moves << m1 << m2 << m3 << m4
-p18.moves << m1 << m2 << m3 << m4
-p19.moves << m1 << m2 << m3 << m4
-p20.moves << m1 << m2 << m3 << m4
-p21.moves << m1 << m2 << m3 << m4
-p22.moves << m1 << m2 << m3 << m4
-p23.moves << m1 << m2 << m3 << m4
-p24.moves << m1 << m2 << m3 << m4
-p25.moves << m1 << m2 << m3 << m4
-p26.moves << m1 << m2 << m3 << m4
-p27.moves << m1 << m2 << m3 << m4
-p28.moves << m1 << m2 << m3 << m4
-p29.moves << m1 << m2 << m3 << m4
-p30.moves << m1 << m2 << m3 << m4
-p31.moves << m1 << m2 << m3 << m4
-p32.moves << m1 << m2 << m3 << m4
-p33.moves << m1 << m2 << m3 << m4
-p34.moves << m1 << m2 << m3 << m4
+p1.moves << m53 << m144 << m73 << m158 << m94 << m54 << m122 << m127
+p2.moves << m53 << m144 << m73 << m158 << m94 << m54 << m122 << m127 << m102
+p3.moves << m53 << m144 << m73 << m158 << m94 << m54 << m122 << m127 << m102
+p4.moves << m53 << m112 << m40 << m74 << m101 << m121 << m46 << m44
+p5.moves << m53 << m112 << m40 << m74 << m101 << m121 << m46 << m44
+p6.moves << m53 << m112 << m40 << m74 << m101 << m121 << m46 << m44
+p7.moves << m144 << m145 << m16 << m160 << m11 << m164 << m118 << m63
+p8.moves << m144 << m145 << m16 << m160 << m11 << m164 << m118 << m63
+p9.moves << m144 << m145 << m16 << m160 << m11 << m164 << m118 << m63
+p10.moves << m134 << m144
+p11.moves << m134 << m144 << m57
+p12.moves << m134 << m144 << m57 << m21 << m94 << m136 << m122 << m140 << m162 << m97
+p13.moves << m95 << m134
+p14.moves << m95 << m134 << m57
+p15.moves << m95 << m134 << m57 << m50 << m49 << m157 << m101 << m92 << m4
+p16.moves << m56 << m111 << m100 << m162 << m163 << m4 << m86
+p17.moves << m56 << m111 << m100 << m162 << m163 << m4 << m86
+p18.moves << m56 << m111 << m100 << m162 << m163 << m4 << m86
+p19.moves << m144 << m145 << m100 << m65 << m49 << m139
+p20.moves << m144 << m145 << m100 << m65 << m49 << m139
+p21.moves << m54 << m90 << m74 << m50 << m86 << m37 << m4
+p22.moves << m54 << m90 << m74 << m50 << m86 << m37 << m4
+p23.moves << m74 << m165 << m95 << m52 << m113 << m2
+p24.moves << m74 << m165 << m11 << m95 << m52 << m113 << m2
+p25.moves << m53 << m151 << m152 << m100 << m142 << m4 << m149
+p26.moves << m53 << m151 << m152 << m100 << m142 << m4 << m149
+p27.moves << m112 << m111 << m121 << m95 << m142 << m51
+p28.moves << m112 << m111 << m121 << m95 << m142 << m51
+p29.moves << m53 << m144 << m112 << m95 << m145 << m11 << m51 << m31
+p30.moves << m53 << m144 << m112 << m95 << m145 << m11 << m51 << m31
+p31.moves << m53 << m144 << m112 << m95 << m145 << m11 << m51 << m31 << m13
+p32.moves << m74 << m144 << m61 << m95 << m49 << m50 << m62 << m31
+p33.moves << m74 << m144 << m61 << m95 << m49 << m50 << m62 << m31
+p34.moves << m74 << m144 << m61 << m95 << m49 << m50 << m62 << m31 << m148
 p35.moves << m1 << m2 << m3 << m4
 p36.moves << m1 << m2 << m3 << m4
 p37.moves << m1 << m2 << m3 << m4
